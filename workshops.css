@@ -1,0 +1,252 @@
+@font-face{
+	font-family: Kanit;
+	font-weight: 200;
+	src: url(font/Kanit-ExtraLight.ttf);
+}
+
+@font-face{
+	font-family: Kanit;
+	font-weight: 100;
+	src: url(font/Kanit-Thin.ttf);
+}
+
+@font-face{
+	font-family: Kanit;
+	font-weight: 150;
+	src: url(font/Kanit-Light.ttf);
+}
+
+@font-face{
+	font-family: Oswald;
+	font-weight: 500;
+	src: url(font/Oswald-Bold.ttf);
+}
+
+@font-face{
+	font-family: Oswald;
+	font-weight: 400;
+	src: url(font/Oswald-Medium.ttf);
+}
+
+body {
+	border: 14px solid #100af2;
+	width: 100vw;
+	height: 100vh;
+	font-family: kanit;
+	font-weight: 150;
+	font-size: 13px;
+}
+
+div.circle {
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+	background-color: #100af2;
+	position: absolute;
+	top: 35%;
+	left: 8%;
+}
+
+.circle img {
+	width: 100px;
+	position: absolute;
+	top: 30%;
+	left: 13%;
+}
+
+h4 {
+	width: 100px;
+	font-family: Oswald;
+	font-weight: 400;
+	font-size: 32px;
+	position: absolute;
+	top: 43%;
+	left: 30%;
+	color: #ffffff;
+}
+
+h1, h2, h3 {
+	font-family: Oswald;
+	font-weight: 400;
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+div.challenge {
+	position: absolute;
+	top: 9.5%;
+	left: 8%;
+	width: 60%;
+}
+
+div.challenge p{
+	margin-bottom: 10px;
+}
+
+div.critics {
+	position: absolute;
+	top: 40%;
+	left: 35%;
+	width: 50%;
+	text-align: left;
+}
+
+div.critics p{
+	margin-bottom: 10px;
+}
+
+
+h3 {
+	text-align: right;
+
+}
+
+div.producer {
+	position: absolute;
+	bottom: 9.5%;
+	right: 8%;
+	width: 70%;
+	text-align: left;
+}
+
+div.producer p{
+	margin-bottom: 10px;
+}
+
+div.link {
+	display: block;
+}
+
+div.link p {
+	display: inline;
+	padding-top: 10px;
+}
+
+div.link a {
+/*	display: inline;*/
+	margin: 20px 0;
+	text-decoration: none;
+	color: #100af2;
+	/*color: #000000;*/
+}
+
+.link a:hover {
+	transform: translateX(-20px);
+}
+
+span {
+	color: #000000;
+}
+
+
+div.signup {
+	width: 80px;
+	height: 30px;
+	padding: 5px;
+	border-radius: 18px;
+	background-color: #100af2;
+	box-shadow: 2px 2px 2px rgba(0,0,0,0.4);
+	background-image: linear-gradient(270deg, #100AD1 0%, #160AF2 50%, #100AD1 80%);
+/*  	opacity: 0.9;*/
+	position: absolute;
+}
+
+
+div.signup a {
+	color: #ffffff;
+	font-family: Oswald;
+	font-size: 12px;
+	display: inline-block;
+	margin-left: 17px;
+	margin-top: 4px;
+	text-decoration: none;
+}
+
+div.one {
+	top: 26%;
+	left: 62%;
+}
+
+div.two {
+	top: 57%;
+	left: 80%;
+}
+
+div.three {
+	top: 85%;
+	left: 80%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*menu bar*/
+
+.menu-toggle{
+	position: absolute;
+	top: 10%;
+	right: 8%;
+}
+
+.menu {
+	min-height: 100vh;
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 15%;
+	transform: translateX(100%);
+ 	z-index: 2;
+ 	background-color: #100af2;
+ 	transition: transform 0.8s ease;
+}
+
+.menu.open{
+  	transform: translateX(0);
+}
+
+nav{
+	position: absolute;
+  	left: 50%;
+  	top: 50%;
+  	transform: translate(-50%, -50%);
+}
+
+nav a {
+    font-size: 25px;
+  	font-family: Oswald;
+	font-weight: 400;
+  	display:block;
+  	line-height: 2;
+  	color: #ffffff;
+  	text-decoration: none;
+}
+
+nav a.selected {
+	color: transparent;
+  	-webkit-text-stroke: 1px #ffffff;
+}
+
+.menu-slider{
+	position: absolute;
+	top: 10%;
+	right: 53.5%;
+}

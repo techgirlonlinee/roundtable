@@ -1,0 +1,183 @@
+@font-face{
+	font-family: Kanit;
+	font-weight: 200;
+	src: url(font/Kanit-ExtraLight.ttf);
+}
+
+@font-face{
+	font-family: Kanit;
+	font-weight: 100;
+	src: url(font/Kanit-Thin.ttf);
+}
+
+@font-face{
+	font-family: Kanit;
+	font-weight: 150;
+	src: url(font/Kanit-Light.ttf);
+}
+
+@font-face{
+	font-family: Oswald;
+	font-weight: 500;
+	src: url(font/Oswald-Bold.ttf);
+}
+
+@font-face{
+	font-family: Oswald;
+	font-weight: 400;
+	src: url(font/Oswald-Medium.ttf);
+}
+
+body {
+	border: 14px solid #100af2;
+	width: 100vw;
+	height: 100vh;
+	/*color: #100af2;*/
+	color: #000000;
+}
+
+header img{
+	width: 165px;
+	height: 55px;
+	position: absolute;
+	top: 10%;
+	left: 8%;
+}
+
+
+
+section {
+	font-family: Kanit;
+	font-weight: 150;
+	width: 270px;
+	position: absolute;
+	top: 30%;
+	left: 8%;
+}
+
+section p{
+	margin-bottom: 30px;
+}
+
+section a.purin{ 
+	font-family: Kanit;
+	font-weight: 150;
+/*	margin-top: 50px;*/
+	text-decoration: none;
+	/*color: #100af2;*/
+	color: #000000;
+}
+
+.circle-s {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background-color: #100af2;
+	position: absolute;
+	top: 10%;
+	right: 12%;
+}
+
+.circle-s img{
+	position: absolute;
+	width: 130px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.circle-m {
+	width: 400px;
+	height: 400px;
+	border-radius: 50%;
+	border: 5px solid #100af2;
+	position: absolute;
+	top: 20%;
+	right: 20%;
+	z-index: -1;
+}
+
+
+.rect {
+	position: absolute;
+	bottom: 5%;
+	border-top: 5px solid #100af2;
+	width: 100vw;
+	height: 20px;
+}
+
+a.footer{
+	width: 330px;
+	font-size: 11px;
+	text-align: center;
+	font-family: Kanit;
+	font-weight: 150;
+	text-decoration: none;
+	color: #000000;
+	background-color: #ffffff;
+	position: absolute;
+	bottom: 5.3%;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+
+.footer p {
+	/*padding: 0 15px;*/
+	text-transform: uppercase;
+}
+
+
+.menu-toggle{
+	position: absolute;
+	top: 10%;
+	right: 8%;
+}
+
+.menu {
+	min-height: 100vh;
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 15%;
+	transform: translateX(100%);
+ 	z-index: 2;
+ 	background-color: #100af2;
+ 	transition: transform 0.8s ease;
+}
+
+.menu.open{
+  	transform: translateX(0);
+}
+
+nav{
+	position: absolute;
+  	left: 50%;
+  	top: 50%;
+  	transform: translate(-50%, -50%);
+}
+
+nav a{
+    font-size: 25px;
+  	font-family: Oswald;
+	font-weight: 400;
+  	display:block;
+  	line-height: 2;
+  	color: #ffffff;
+  	text-decoration: none;
+}
+
+nav a.selected {
+	color: transparent;
+  	-webkit-text-stroke: 1px #ffffff;
+}
+
+
+.menu-slider{
+	position: absolute;
+	top: 10%;
+	right: 53.5%;
+}
+
+
+
