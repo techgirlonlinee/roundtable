@@ -32,6 +32,7 @@ body {
 	border: 14px solid #100af2;
 	width: 100vw;
 	height: 100vh;
+	overflow: hidden;
 }
 
 header {

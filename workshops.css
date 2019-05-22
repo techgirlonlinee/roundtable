@@ -35,6 +35,7 @@ body {
 	font-family: kanit;
 	font-weight: 150;
 	font-size: 13px;
+	overflow: hidden;
 }
 
 div.circle {
