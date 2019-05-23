@@ -17,6 +17,18 @@
 }
 
 @font-face{
+	font-family: Kanit;
+	font-weight: 300;
+	src: url(font/Kanit-SemiBoldItalic.ttf);
+}
+
+@font-face{
+	font-family: Kanit;
+	font-weight: 350;
+	src: url(font/Kanit-SemiBold.ttf);
+}
+
+@font-face{
 	font-family: Oswald;
 	font-weight: 500;
 	src: url(font/Oswald-Bold.ttf);
@@ -128,11 +140,12 @@ div.link a {
 	margin: 20px 0;
 	text-decoration: none;
 	color: #100af2;
-	/*color: #000000;*/
+	font-family: Kanit;
+	font-weight: 300;
 }
 
-.link a:hover {
-	transform: translateX(-20px);
+div.link:hover {
+    transform: translateX(-15px);
 }
 
 span {
@@ -140,28 +153,73 @@ span {
 }
 
 
-div.signup {
+/*div.signup {
 	width: 80px;
-	height: 30px;
+	height: 20px;
 	padding: 5px;
 	border-radius: 18px;
 	background-color: #100af2;
 	box-shadow: 2px 2px 2px rgba(0,0,0,0.4);
 	background-image: linear-gradient(270deg, #100AD1 0%, #160AF2 50%, #100AD1 80%);
-/*  	opacity: 0.9;*/
+	position: relative;
+}*/
+
+
+
+
+
+
+
+
+/*div.signup {
+	width: 52px;
+	height: 52px;
 	position: absolute;
+	border-radius: 50%;
+	background-color: #ffffff;
+	transition: all 2s ease;
+	z-index: 2;
 }
 
 
 div.signup a {
-	color: #ffffff;
+	color: #100af2;
 	font-family: Oswald;
 	font-size: 12px;
-	display: inline-block;
-	margin-left: 17px;
-	margin-top: 4px;
+	position: relative;
+	top: -33px;
+	margin-left: 8px;
 	text-decoration: none;
 }
+
+div.signup img{
+	animation-name: rotate; 
+    animation-duration: 35s; 
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes rotate {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+}
+
+.signup:hover {
+	width: 52px;
+	height: 52px;
+	border-radius: 50%;
+	background-color: #100af2;
+	color: #ffffff;
+}
+
+.signup img:hover {
+	color: #ffffff;
+}
+
+.signup a:hover {
+	color: #ffffff;
+}
+
 
 div.one {
 	top: 26%;
@@ -178,12 +236,75 @@ div.three {
 	left: 80%;
 }
 
+*/
 
 
 
+.signup {
+	width: 52px;
+	height: 52px;
+	position: absolute;
+	border-radius: 50%;
+	background-color: #ffffff;
+	transition: all 2s ease;
+	z-index: 2;
+	text-decoration: none;
+}
 
+.signup:hover {
+	width: 52px;
+	height: 52px;
+	border-radius: 50%;
+	background-color: #100af2;
+	color: #ffffff;
+}
 
+.signup h5:hover {
+	color: #ffffff;
+}
 
+.signup img{
+	animation-name: rotate; 
+    animation-duration: 35s; 
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    position: absolute;
+    top: 0;
+}
+
+@keyframes rotate {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+}
+
+.one {
+	top: 26%;
+	left: 62%;
+}
+
+.two {
+	top: 57%;
+	left: 80%;
+}
+
+.three {
+	top: 85%;
+	left: 80%;
+}
+
+.signup h5 {
+	color: #100af2;
+	font-family: Oswald;
+	font-size: 12px;
+	position: relative;
+	/*top: -33px;*/
+/*	margin-left: 8px;
+	top: 30px;*/
+	margin-top: 20px;
+	margin-left: 8px;
+	text-decoration: none;
+	z-index: 2;
+}
 
 
 

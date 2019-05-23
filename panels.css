@@ -172,7 +172,7 @@ span {
 }
 
 
-div.signup {
+/*div.signup {
 	width: 80px;
 	height: 20px;
 	padding: 5px;
@@ -180,9 +180,8 @@ div.signup {
 	background-color: #100af2;
 	box-shadow: 2px 2px 2px rgba(0,0,0,0.4);
 	background-image: linear-gradient(270deg, #100AD1 0%, #160AF2 50%, #100AD1 80%);
-/*  	opacity: 0.9;*/
 	position: relative;
-}
+}*/
 
 
 div.signup a {
