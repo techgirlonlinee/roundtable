@@ -128,6 +128,7 @@ div.producer p{
 
 div.link {
 	display: block;
+	width: 440px;
 }
 
 div.link p {
@@ -256,12 +257,11 @@ div.three {
 	height: 52px;
 	border-radius: 50%;
 	background-color: #100af2;
-	color: #ffffff;
 }
 
-.signup h5:hover {
+/*.signup h5:hover {
 	color: #ffffff;
-}
+}*/
 
 .signup img{
 	animation-name: rotate; 

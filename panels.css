@@ -184,7 +184,7 @@ span {
 }*/
 
 
-div.signup a {
+/*div.signup a {
 	color: #ffffff;
 	font-family: Oswald;
 	font-size: 12px;
@@ -208,10 +208,73 @@ div.three {
 	left: 80%;
 }
 
+*/
 
 
+a.signup {
+	width: 52px;
+	height: 52px;
+	position: absolute;
+	border-radius: 50%;
+	background-color: #ffffff;
+	transition: all 2s ease;
+	z-index: 2;
+	text-decoration: none;
+}
 
+a.signup:hover {
+	width: 52px;
+	height: 52px;
+	border-radius: 50%;
+	background-color: #100af2;
+}
 
+/*.signup h5:hover {
+	color: #ffffff;
+}*/
+
+.signup img{
+	animation-name: rotate; 
+    animation-duration: 35s; 
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    position: absolute;
+    top: 0;
+}
+
+@keyframes rotate {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+}
+
+.one {
+	top: 26%;
+	left: 62%;
+}
+
+.two {
+	top: 57%;
+	left: 80%;
+}
+
+.three {
+	top: 85%;
+	left: 80%;
+}
+
+.signup h5 {
+	color: #100af2;
+	font-family: Oswald;
+	font-size: 12px;
+	position: relative;
+	/*top: -33px;*/
+/*	margin-left: 8px;
+	top: 30px;*/
+	margin-top: 20px;
+	margin-left: 8px;
+	text-decoration: none;
+	z-index: 2;
+}
 
 
 
