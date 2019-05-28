@@ -55,12 +55,11 @@ header img{
 	left: 8%;
 }
 
-
-
 section {
 	font-family: Kanit;
 	font-weight: 150;
-	width: 270px;
+	/*width: 270px;*/
+	width: 320px;
 	position: absolute;
 	top: 30%;
 	left: 8%;
