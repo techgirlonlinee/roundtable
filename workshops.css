@@ -41,7 +41,7 @@
 }
 
 body {
-	border: 14px solid #100af2;
+/*	border: 14px solid #100af2;*/
 	width: 100vw;
 	height: 100vh;
 	font-family: kanit;
@@ -259,9 +259,9 @@ div.three {
 	background-color: #100af2;
 }
 
-/*.signup h5:hover {
+.signup:hover h5{
 	color: #ffffff;
-}*/
+}
 
 .signup img{
 	animation-name: rotate; 

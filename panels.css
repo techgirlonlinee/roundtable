@@ -276,7 +276,16 @@ a.signup:hover {
 	z-index: 2;
 }
 
+.signup:hover {
+	width: 52px;
+	height: 52px;
+	border-radius: 50%;
+	background-color: #100af2;
+}
 
+.signup:hover h5{
+	color: #ffffff;
+}
 
 
 
