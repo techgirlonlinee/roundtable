@@ -180,6 +180,9 @@ div.circle p {
   font-size: 30px;
 }
 
+/*language*/
+
+
 div.lang {
   position: absolute;
   bottom: 0;
@@ -290,9 +293,6 @@ nav a.selected {
 
 .menu-slider{
 	position: absolute;
-	/*top: 10%;*/
-/*	right: 53.5%;*/
-	/*right: 90px;*/
 	right: 20px;
 	top: 20px;
 }

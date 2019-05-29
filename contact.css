@@ -1,6 +1,8 @@
 body {
 	background-color: #100af2;
 	overflow: hidden;
+	width: 100%;
+	height: 100%;
 }
 
 div {
@@ -12,7 +14,7 @@ div {
     justify-content: center;
 }
 
-div img{
+.icon img{
 	width: 50px;
 	height: 50px;
 	margin-left: 3px;
@@ -21,54 +23,115 @@ div img{
 
 
 
-/**menu bar*/
+
+
+/*language*/
+
+
+div.lang {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  /*margin-bottom: 40px;
+  margin-right: 62px;*/
+}
+
+div.lang a{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  font-size: 13px;
+  font-family: Oswald;
+  font-weight: 400;
+}
+
+
+a.eng {
+    text-decoration: none;
+    background-color: #ffffff;
+    color: #100af2;
+    padding: 8px 10px 5px 8px;
+}
+
+div.thai a{
+  padding: 2px 6px 3px 6px;
+  background-color: #100af2;
+  color: #fff;
+}
+
+
+a.thai {
+  color: #ffffff;
+  /*border: 2px solid #100af2;*/
+  background-color: #100af2;
+  padding: 8px 6px 4px 9px;
+  border: 2px solid #ffffff;
+}
+
+a.thai:hover {
+  color: #ffffff;
+  border: 2px solid #100af2;
+  background-color: #100af2;
+  /*padding: 2px 4px 2px 4px;*/
+   padding: 1px 4px 1px 4px;
+}
+
 
 .menu-toggle{
 	position: absolute;
 	top: 10%;
-	right: 8%;
+/*	right: 8%;*/
+	right: 90px;
 }
 
 .menu {
-	min-height: 100%;
+	min-height: 100vh;
 	position: absolute;
 	top: 0;
 	right: 0;
 	width: 15%;
 	transform: translateX(100%);
  	z-index: 2;
- 	background-color: #ffffff;
+ 	background-color: #100af2;
  	transition: transform 0.8s ease;
 }
 
-.menu.open{
+.menu.open {
   	transform: translateX(0);
 }
 
-nav{
+nav {
 	position: absolute;
   	left: 50%;
   	top: 50%;
   	transform: translate(-50%, -50%);
 }
 
-nav a {
+nav a{
     font-size: 25px;
   	font-family: Oswald;
 	font-weight: 400;
   	display:block;
   	line-height: 2;
-  	color: #100af2;
+  	color: #ffffff;
   	text-decoration: none;
 }
 
 nav a.selected {
 	color: transparent;
-  	-webkit-text-stroke: 1px #100af2;
+  	-webkit-text-stroke: 1px #ffffff;
 }
 
 .menu-slider{
 	position: absolute;
-	top: 10%;
-	right: 53.5%;
+	right: 20px;
+	top: 20px;
+}
+
+a.engg {
+    text-decoration: none;
+    color: #100af2;
+    background-color: #ffffff;
+    padding: 2px 6px 3px 6px;
+    border: 1px solid #100af2;
 }
