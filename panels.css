@@ -152,13 +152,14 @@ div.location {
 
 
 
-/* challenge */
+/* critics */
 
 div.critics {
 	width: 500px;
 	height: 500px;
 	position: absolute;
-	top: 550px;
+	/*top: 520px;*/
+	top: 500px;
 	/*left: 600px;*/
 	left: 100px;
 	border-radius: 50%;
@@ -200,9 +201,38 @@ div.producer {
 	border-radius: 50%;
 	background-color: #100af2;
 	position: absolute;
-	top: 980px;
+	top: 940px;
 	left: 600px;
 	margin-bottom: 100px;
+}
+
+
+/* pop up */
+
+.circle-xl {
+	width: 600px;
+	height: 600px;
+	border-radius: 50%;
+	background-color: #000000;
+	z-index: 3;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: #ffffff;
+	display: none;
+}
+
+.filler {
+	width: 400px;
+	/*margin-top: 100px;*/
+	margin-top: 40px;
+	margin-left: 100px;
+}
+
+.cross {
+	margin-top: 60px;
+    margin-left: 370px;
 }
 
 
