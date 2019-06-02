@@ -45,21 +45,16 @@ div.border {
 	width: 100%;
 	height: 100%;
 	border: 14px solid #100af2;
-/*	z-index: 3;
-	pointer-events: none;*/
 }
 
-div.outer {
+/*div.outer {
 	width: 900px;
 	height: 100%;
 	margin-left: auto;
 	margin-right: auto;
-}
+}*/
 
 body {
-/*	border: 14px solid #100af2;
-	width: 100vw;
-	height: 100vh;*/
 	font-family: kanit;
 	font-weight: 150;
 	font-size: 13px;
@@ -77,6 +72,9 @@ h4 {
 	color: #100af2;
 }
 
+span {
+	font-style: italic;
+}
 
 
 /* challenge */
@@ -125,6 +123,8 @@ div.link p {
 
 div.link a {
 	color: #ffffff;
+	text-decoration: underline;
+	cursor: pointer;
 }
 
 .main {
@@ -143,6 +143,17 @@ div.link a {
 	font-size: 11px;
 }
 
+
+.date1 {
+	margin-top: 15px;
+}
+
+.date1, .date2{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	font-size: 11px;
+}
 
 div.location {
 	margin-top: 10px;
@@ -177,6 +188,8 @@ div.content2 {
 
 .person {
 	color: #100af2 !important;
+	cursor: pointer;
+	text-decoration: underline;
 }
 	
 .sentence {
@@ -221,6 +234,8 @@ div.producer {
 	transform: translate(-50%, -50%);
 	color: #ffffff;
 	display: none;
+/*	opacity: 0;
+	transition: opacity 0.5s ease;*/
 }
 
 .filler {
@@ -230,9 +245,12 @@ div.producer {
 	margin-left: 100px;
 }
 
-.cross {
+.crosss {
 	margin-top: 60px;
     margin-left: 370px;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
 }
 
 
@@ -285,11 +303,16 @@ a.thai:hover {
   padding: 1px 4px 1px 4px;
 }
 
-
 .menu-toggle{
 	position: fixed;
 	top: 10%;
 	right: 90px;
+	cursor: pointer;
+}
+
+.menu-toggle img {
+  width: 30px;
+  height: 20px;
 }
 
 .menu {
@@ -330,10 +353,22 @@ nav a.selected {
   	-webkit-text-stroke: 1px #ffffff;
 }
 
-.menu-slider{
+/*.menu-slider{
 	position: absolute;
 	right: 20px;
 	top: 20px;
+}*/
+
+.menu-slider{
+  position: absolute;
+  right: 95px;
+  top: 60px;
+  cursor: pointer;
+}
+
+.menu-slider img{
+  width: 30px;
+  height: 30px;
 }
 
 a.engg {

@@ -14,15 +14,44 @@ div {
     justify-content: center;
 }
 
-.icon img{
-	width: 50px;
-	height: 50px;
+/*.icon img{
+	width: 100px;
+	height: 80px;
 	margin-left: 3px;
 	margin-right: 3px;
+}*/
+
+.links img {
+  margin: 15px;
 }
 
+.icon1 img {
+  width: 74px;
+  height: 133px;
+}
 
+.icon2 img {
+  width: 195px;
+  height: 138px;
 
+}
+
+.icon3 img {
+  width: 228px;
+  height: 100px;
+
+}
+
+.icon4 img {
+  width: 215px;
+  height: 50px;
+
+}
+
+.icon5 img {
+  width: 62px;
+  height: 130px;
+}
 
 
 /* menuuuuuuu */
@@ -82,7 +111,6 @@ a.thai:hover {
   padding: 1px 4px 1px 4px;
 }
 
-
 .menu-toggle{
   position: fixed;
   top: 10%;
@@ -108,14 +136,7 @@ a.thai:hover {
 }
 
 .menu.open {
-    transform: translateX(0);
-}
-
-.menu-slider{
-  position: absolute;
-  right: 95px;
-  top: 60px;
-  cursor: pointer;
+  transform: translateX(0);
 }
 
 .menu-slider img{
@@ -143,6 +164,18 @@ nav a{
 nav a.selected {
   color: transparent;
     -webkit-text-stroke: 1px #ffffff;
+}
+
+.menu-slider{
+  position: absolute;
+  right: 95px;
+  top: 60px;
+  cursor: pointer;
+}
+
+.menu-slider img{
+  width: 30px;
+  height: 30px;
 }
 
 a.engg {

@@ -43,6 +43,12 @@ body {
 	position: absolute;
 	top: 10%;
 	right: 8%;
+	 cursor: pointer;
+}
+
+.menu-toggle img {
+  width: 30px;
+  height: 20px;
 }
 
 .menu {
@@ -85,10 +91,13 @@ nav a.selected {
 
 
 .menu-slider{
-	position: absolute;
-	top: 10%;
-	right: 53.5%;
+  position: absolute;
+  right: 100px;
+  top: 60px;
+  cursor: pointer;
 }
 
-
-
+.menu-slider img{
+  width: 30px;
+  height: 30px;
+}
