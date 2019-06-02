@@ -54,7 +54,7 @@ grai.addEventListener("click", function() {
 
 const towira = document.getElementById("towira")
 towira.addEventListener("click", function() {
-	const circle = document.getElementById("t2")
+	const circle = document.getElementById("tt2")
 	circle.style.display = "block"
 
 	const close = document.getElementById("cross5")

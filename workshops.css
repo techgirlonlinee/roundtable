@@ -259,7 +259,8 @@ div.producer {
 	height: 52px;
 	position: absolute;
 	border-radius: 50%;
-	background-color: #ffffff;
+	/*background-color: #ffffff;*/
+	background-color: transparent;
 	transition: all 2s ease;
 	z-index: 2;
 	text-decoration: none;
@@ -462,4 +463,73 @@ a.thaii:hover {
     background-color: #ffffff;
     padding: 2px 6px 3px 6px;
     border: 1px solid #100af2;
+}
+
+
+
+/* pop up names */
+
+
+img#npic {
+	vertical-align: bottom;
+    max-width: 100%;
+    width: 166px;
+    height: 204px;
+    margin-top: 10px;
+    margin-left: 230px;
+    object-fit: cover;
+}
+
+img#kpic {
+    vertical-align: bottom;
+    max-width: 100%;
+    width: 166px;
+    height: 204px;
+    margin-top: 6px;
+    margin-left: 233px;
+    object-fit: cover;
+}
+
+img#ppic {
+    vertical-align: bottom;
+    max-width: 100%;
+    width: 166px;
+    height: 204px;
+    margin-top: 10px;
+    margin-left: 238px;
+   	width: 180px;
+    height: 220px;
+    object-fit: cover;
+}
+
+img#gpic {
+	vertical-align: bottom;
+    max-width: 100%;
+    width: 166px;
+    height: 204px;
+    object-fit: cover;
+    margin-top: 10px;
+    margin-left: 222px;
+}
+
+img#tpic {
+    vertical-align: bottom;
+    max-width: 100%;
+    width: 166px;
+    height: 204px;
+    margin-top: 10px;
+    margin-left: 233px;
+    width: 163px;
+    height: 198px;
+    object-fit: cover;
+}
+
+img#spic {
+	vertical-align: bottom;
+    max-width: 100%;
+    width: 162px;
+    height: 184px;
+    margin-top: 10px;
+    margin-left: 240px;
+    object-fit: cover;
 }

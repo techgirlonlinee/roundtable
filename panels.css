@@ -91,9 +91,9 @@ div.challenge {
 }
 
 div.content {
-	width: 410px;
-	padding-top: 100px;
-	padding-left: 115px;
+	width: 420px;
+	padding-top: 110px;
+	padding-left: 90px;
 	color: #ffffff;
 }
 
@@ -132,7 +132,7 @@ div.link a {
 }
 
 .line {
-	width: 293px;
+	width: 330px;
 	background-color: #ffffff;
 	height: 1.3px;
 	margin-top: 20px;
@@ -166,8 +166,8 @@ div.location {
 /* critics */
 
 div.critics {
-	width: 500px;
-	height: 500px;
+	width: 520px;
+	height: 520px;
 	position: absolute;
 	/*top: 520px;*/
 	top: 500px;
@@ -180,9 +180,9 @@ div.critics {
 }
 
 div.content2 {
-	width: 410px;
-	padding-top: 100px;
-	padding-left: 110px;
+	width: 430px;
+	padding-top: 110px;
+	padding-left: 90px;
 	color: #100af2;
 }
 
@@ -199,7 +199,7 @@ div.content2 {
 }
 
 .line2 {
-	width: 300px;
+	width: 340px;
 	background-color: #100af2;
 	height: 1.3px;
 	margin-top: 20px;
@@ -253,6 +253,103 @@ div.producer {
     height: 20px;
 }
 
+
+/* pop up names */
+
+
+img#jpic {
+	vertical-align: bottom;
+    max-width: 100%;
+    width: 180px;
+    margin-top: 10px;
+    margin-left: 214px;
+}
+
+img#npic {
+    vertical-align: bottom;
+    max-width: 100%;
+    width: 166px;
+    height: 184px;
+    margin-top: 6px;
+    margin-left: 233px;
+    object-fit: cover;
+}
+
+
+img#apic {
+    vertical-align: bottom;
+    max-width: 100%;
+    width: 180px;
+    margin-top: 10px;
+    margin-left: 220px;
+   	width: 180px;
+    height: 220px;
+    object-fit: cover;
+}
+
+img#cpic {
+	vertical-align: bottom;
+    max-width: 100%;
+    width: 180px;
+    height: 198px;
+    object-fit: cover;
+    margin-top: 10px;
+    margin-left: 214px;
+}
+
+img#aapic {
+    vertical-align: bottom;
+    max-width: 100%;
+    width: 166px;
+    height: 184px;
+    margin-top: 6px;
+    margin-left: 233px;
+    object-fit: cover;
+    background-position: right center;
+}
+
+
+img#mpic {
+    vertical-align: bottom;
+    max-width: 100%;
+    width: 180px;
+    margin-top: 10px;
+    margin-left: 229px;
+    width: 163px;
+    height: 198px;
+    object-fit: cover;
+}
+
+img#ccpic {
+	vertical-align: bottom;
+    max-width: 100%;
+    width: 162px;
+    height: 184px;
+    margin-top: 10px;
+    margin-left: 234px;
+    object-fit: cover;
+}
+
+img#wpic {
+    vertical-align: bottom;
+    max-width: 100%;
+    width: 166px;
+    height: 184px;
+    margin-top: 6px;
+   	margin-left: 219px;
+    object-fit: cover;
+}
+
+img#mmpic {
+    vertical-align: bottom;
+    max-width: 100%;
+    width: 180px;
+    margin-top: 10px;
+    margin-left: 220px;
+   	width: 180px;
+    height: 220px;
+    object-fit: cover;
+}
 
 /* menuuuuuuu */
 
