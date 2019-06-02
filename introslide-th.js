@@ -23,3 +23,4 @@ var autoSlide = setInterval (function(){
   next()
   updateSection()
    }, 7000)
+

@@ -85,9 +85,10 @@ div.challenge {
 	border-radius: 50%;
 	background-color: #100af2;
 	position: absolute;
-	top: 55px;
-	/*left: 100px;*/
-	left: 600px;
+/*	top: 55px;
+	left: 600px;*/
+	top: 9%;
+	left: 45%;
 }
 
 div.content {
@@ -197,10 +198,10 @@ div.critics {
 	width: 570px;
 	height: 570px;
 	position: absolute;
-	/*top: 520px;*/
-	top: 500px;
-	/*left: 600px;*/
-	left: 80px;
+/*	top: 500px;
+	left: 80px;*/
+	top: 80%;
+	left: 6%;
 	border-radius: 50%;
 	background-color: #ffffff;
 	border: solid 2px #100af2;
@@ -274,8 +275,10 @@ div.producer {
 	border-radius: 50%;
 	background-color: #100af2;
 	position: absolute;
-	top: 940px;
-	left: 600px;
+/*	top: 940px;
+	left: 600px;*/
+	top: 150%;
+	left: 45%;
 	margin-bottom: 100px;
 }
 img#ccpic {

@@ -129,7 +129,7 @@ a {
   margin-bottom: 1px;
 }
 
-.footer:hover p{
+.footer:hover p {
   margin-bottom: 0px;
   border-bottom: 1px solid #fff;
 }
