@@ -38,16 +38,18 @@ body {
 	line-height: 1.2;
 }
 
-header {
+.about {
+  text-decoration: none;
 	font-family: Oswald;
 	font-size: 40px;
 	position: absolute;
-	top: 12.8%;
-	left: 25%;
+  top: 12.8%;
+  left: 25%;
 	transform: translateX(-50%);
 	color: #100af2;
 	text-transform: uppercase;
 }
+
 
 div.line {
 	position: relative;
@@ -228,6 +230,11 @@ nav a{
   	line-height: 2;
   	color: #ffffff;
   	text-decoration: none;
+}
+
+nav a:hover{
+  color: transparent;
+    -webkit-text-stroke: 1px #ffffff;
 }
 
 nav a.selected {

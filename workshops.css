@@ -62,7 +62,7 @@ body {
 	height: 100vh;*/
 	font-family: kanit;
 	font-weight: 150;
-	font-size: 13px;
+	font-size: 14px;
 	overflow-x: hidden;
 }
 
@@ -89,18 +89,18 @@ img {
 /* challenge */
 
 div.challenge {
-	width: 520px;
-	height: 520px;
+	width: 600px;
+	height: 600px;
 	border-radius: 50%;
 	background-color: #100af2;
 	position: absolute;
-	top: 15%;
+	top: 5%;
 	left: 8%;
 }
 
 div.content {
-	width: 410px;
-	padding-top: 80px;
+	width: 500px;
+	padding-top: 115px;
 	padding-left: 100px;
 	color: #ffffff;
 }
@@ -124,7 +124,7 @@ div.link {
 div.link p {
 	display: inline;
 	padding-top: 10px;
-	font-size: 10px;
+	font-size: 14px;
 	font-family: kanit;
 	font-weight: 150;
 }
@@ -133,7 +133,7 @@ div.link a {
 	color: #ffffff;
 	text-decoration: underline;
 	cursor: pointer;
-	font-size: 14px;
+	font-size: 16px;
 }
 
 div.link:hover a{
@@ -144,8 +144,15 @@ div.link:hover a{
 	padding-top: 20px;
 }
 
+p.main {
+	line-height: 1.4;
+	width: 480px;
+	margin-left: -30px;
+}
+
 .line {
-	width: 310px;
+	/*width: 310px;*/
+	width: 390px;
 	background-color: #ffffff;
 	height: 1.3px;
 	margin-top: 20px;
@@ -178,12 +185,10 @@ div.location {
 /* challenge */
 
 div.critics {
-	width: 520px;
-	height: 520px;
+	width: 580px;
+	height: 580px;
 	position: absolute;
-/*	top: 550px;
-	left: 600px;*/
-	top: 86%;
+	top: 80%;
 	left: 44%;
 	border-radius: 50%;
 	background-color: #ffffff;
@@ -192,8 +197,8 @@ div.critics {
 }
 
 div.content2 {
-	width: 410px;
-	padding-top: 80px;
+	width: 450px;
+	padding-top: 100px;
 	padding-left: 100px;
 	color: #100af2;
 }
@@ -219,8 +224,8 @@ div.content2 {
 /* producer */
 
 div.producer {
-	width: 520px;
-	height: 520px;
+	width: 590px;
+	height: 590px;
 	border-radius: 50%;
 	background-color: #100af2;
 	position: absolute;
@@ -310,24 +315,18 @@ div.producer {
 }
 
 .one {
-	/*top: 160px;
-	left: 610px;*/
 	top: 21%;
-    left: 47%;
+    left: 55%;
 }
 
 .two {
-/*	top: 550px;
-	left: 1050px;*/
-	top: 89%;
-    left: 82%;
+	top: 85%;
+    left: 85.5%;
 }
 
 .three {
-/*	top: 1010px;
-	left: 80px;*/
 	top: 160%;
-    left: 4%;
+    left: 5%;
 }
 
 .signup h5 {
@@ -452,6 +451,12 @@ nav a{
   	color: #ffffff;
   	text-decoration: none;
 }
+
+nav a:hover{
+  color: transparent;
+    -webkit-text-stroke: 1px #ffffff;
+}
+
 
 nav a.selected {
 	color: transparent;

@@ -103,6 +103,11 @@ nav a{
   	text-decoration: none;
 }
 
+nav a:hover{
+  color: transparent;
+    -webkit-text-stroke: 1px #ffffff;
+}
+
 nav a.selected {
 	color: transparent;
   	-webkit-text-stroke: 1px #ffffff;
