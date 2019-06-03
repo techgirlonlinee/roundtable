@@ -21,7 +21,12 @@ div {
 	margin-right: 3px;
 }
 
-
+#logo {
+  width: 130px;
+  position: absolute;
+  top: 8%;
+  left: 6%;
+}
 
 
 

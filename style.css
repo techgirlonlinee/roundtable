@@ -134,6 +134,22 @@ a {
   border-bottom: 1px solid #fff;
 }
 
+.footer img{
+  opacity: 0;
+  position: fixed;
+  top: -950%;
+  left: 0;
+  /*transform: translate(-50%,-50%);*/
+  max-width: 500px;
+  pointer-events: none;
+  
+  transition: opacity 0.3s;
+}
+
+.footer:hover img{
+  opacity: 1;
+}
+
 section.graphics {
   background-color: #ffffff;
   width: 50%;

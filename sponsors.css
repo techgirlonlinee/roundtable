@@ -14,12 +14,13 @@ div {
     justify-content: center;
 }
 
-/*.icon img{
-	width: 100px;
-	height: 80px;
-	margin-left: 3px;
-	margin-right: 3px;
-}*/
+#logo {
+  /*width: 200px;*/
+  width: 130px;
+  position: absolute;
+  top: 8%;
+  left: 6%;
+}
 
 .links img {
   margin: 15px;

@@ -37,7 +37,26 @@ body {
 	overflow: hidden;
 }
 
+.circle {
+	position: absolute;
+	top: 8%;
+	left: 8%;
+}
+.circle img {
+	width: 130px;
+}
 
+h1 {
+	width: 100px;
+	font-family: Oswald;
+	font-weight: 400;
+	font-size: 33px;
+	position: absolute;
+	top: 98%;
+	left: -3%;
+	/*color: #100af2;*/
+	color: #100af2;
+}
 
 .menu-toggle{
 	position: absolute;

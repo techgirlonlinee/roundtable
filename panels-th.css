@@ -62,14 +62,22 @@ body {
 }
 
 h4 {
-	width: 100px;
+	width: 240px;
+	/*width: 140px;*/
 	font-family: Oswald;
 	font-weight: 400;
-	font-size: 25px;
+	/*font-size: 25px;*/
+	font-size: 43.5px;
 	position: absolute;
 	top: 9.4%;
+    /*left: 8%;*/
     left: 8%;
 	color: #100af2;
+}
+
+img {
+	vertical-align: bottom;
+    width: 123px;
 }
 
 span {
@@ -126,6 +134,11 @@ div.link a {
 	color: #ffffff;
 	text-decoration: underline;
 	cursor: pointer;
+	font-size: 14px;
+}
+
+div.link:hover a{
+	font-style: italic;
 }
 
 .main {
