@@ -212,3 +212,109 @@ a.thaii:hover {
     padding: 7px 5px 2px 7px;
     border: 1px solid #100af2;
 }
+
+
+
+
+/*mobile version*/
+
+@media (max-width: 420px) {
+
+#logo {
+  width: 130px;
+  position: absolute;
+  top: 13px;
+  left: 6%;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  vertical-align: middle;
+  position: fixed;
+  top: 0;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.links img {
+  margin: 10px;
+}
+
+.icon1 img{
+  width: 44px;
+  /*height: 100%;*/
+  height: 85px;
+  margin-top: 20px;
+}
+
+.icon2 img{
+  width: 94px;
+  height: 77px;
+  /*height: 100%;*/
+}
+
+.icon3 img{
+  width: 94px;
+  height: 48px;
+}
+
+.icon4 img{
+  width: 108px;
+  /*height: 100%;*/
+  height: 32px;
+}
+
+.icon5 img{
+  width: 44px;
+  height: 87px;
+}
+
+.icon {
+  margin-bottom: 15px;
+}
+
+
+
+
+
+.menu-toggle {
+  position: fixed;
+  top: 23px;
+  right: 23px;
+  cursor: pointer;
+}
+
+.menu {
+  width: 100%;
+}
+
+.menu-slider {
+  position: absolute;
+  right: 23px;
+  top: 23px;
+  cursor: pointer;
+}
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
