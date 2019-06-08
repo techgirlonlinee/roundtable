@@ -376,12 +376,16 @@ a.thaii:hover {
     font-size: 16px;
   }
 
-h1 {
+  #logo {
   display: block;
   width: 130px;
   position: absolute;
-  top: 3%;
-  left: 86px;
+  top: 13px;
+  left: 6%;
+  }
+
+h1 {
+  display: none;
   }
 
 
@@ -390,14 +394,23 @@ section.graphics {
 }
 
 section.text {
-  position: fixed;
+/*  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
   color: #100af2;
   background-color: #fff;
-  overflow-y: auto;
+  overflow-y: auto;*/
+
+  position: absolute;
+    top: 524px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: #100af2;
+    background-color: #fff;
+    overflow: hidden;
 }
 
 .menu-toggle {
@@ -421,6 +434,7 @@ section.text {
 
 .menu {
   width: 100%;
+  height: 100vh;
 }
 
 .menu-slider {
@@ -438,7 +452,8 @@ div.content {
     /*width: 430px;*/
     width: 370px;
     position: absolute;
-    top: 46%;
+    /*top: 46%;*/
+    top: 0;
     padding: 0%;
     left: 0;
     transform: translate(0,0);
@@ -488,7 +503,7 @@ div.content {
     width: 90px;
     height: 90px;
     border-radius: 50%;
-    z-index: 2;
+    z-index: 1;
     position: absolute;
     top: 13%;
     left: 0;
@@ -503,7 +518,7 @@ div.content {
     width: 280px;
     height: 280px;
     border-radius: 50%;
-    z-index: 1;
+/*    z-index: 1;*/
     position: absolute;
     top: 14%;
     left: 0;
@@ -517,7 +532,7 @@ div.content {
   width: 90px;
     height: 90px;
     border-radius: 50%;
-    z-index: 1;
+/*    z-index: 1;*/
     position: absolute;
     top: 54%;
     left: 47%;
@@ -532,7 +547,7 @@ div.content {
     width: 80px;
     height: 80px;
     border-radius: 50%;
-    z-index: 1;
+/*    z-index: 1;*/
     position: absolute;
     top: 73%;
     left: 28%;
@@ -547,7 +562,7 @@ div.content {
     width: 60px;
     height: 60px;
     border-radius: 50%;
-    z-index: 1;
+/*    z-index: 1;*/
     position: absolute;
     top: 62%;
     left: 10%;
@@ -562,6 +577,8 @@ div.content {
 .footer {
   left: 0;
   transform: translateX(0);
+  width: 100vw;
+  /*top: 407px;*/
 }
 
 .footer p {
@@ -574,7 +591,7 @@ div.content {
     left: 0;
     margin-top: -152px;
     margin-bottom: 34px;
-    max-width: 376px;
+    width: 100vw;
     pointer-events: none;
     transition: opacity 0.3s;
 }
