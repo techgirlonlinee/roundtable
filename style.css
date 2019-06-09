@@ -407,10 +407,12 @@ section.text {
     top: 524px;
     left: 0;
     width: 100%;
-    height: 100%;
+    /*height: 100%;*/
+    height: 735px;
     color: #100af2;
     background-color: #fff;
     overflow: hidden;
+    margin-bottom: 32px;
 }
 
 .menu-toggle {
@@ -430,11 +432,12 @@ section.text {
   right: 23px;
   cursor: pointer;
   width: 40px;
+  z-index: 2;
 }
 
 .menu {
-  width: 100%;
-  height: 100vh;
+    position: fixed;
+    width: 100%;
 }
 
 .menu-slider {
@@ -450,11 +453,11 @@ section.text {
 
 div.content {
     /*width: 430px;*/
-    width: 370px;
+    width: auto;
     position: absolute;
     /*top: 46%;*/
     top: 0;
-    padding: 0%;
+    padding: 6%;
     left: 0;
     transform: translate(0,0);
 }

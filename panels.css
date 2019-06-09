@@ -830,7 +830,13 @@ img#mpic {
 }
 
 
-
+div.lang {
+    position: fixed;
+    bottom: 0;
+    left: 49%;
+    transform: translateX(-50%);
+    margin-bottom: 40px;
+}
 
 
 
