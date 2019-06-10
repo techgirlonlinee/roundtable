@@ -952,16 +952,21 @@ div.location {
 	margin-top: 10px;
 }
 
-div.lang {
-    position: fixed;
-    bottom: 0;
-    left: 49%;
-    transform: translateX(-50%);
-    margin-bottom: 40px;
+nav {
+    position: absolute;
+    left: 50%;
+    top: 45%;
+    transform: translate(-50%, -50%);
 }
 
-
-
+div.lang {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 105.29px;
+    margin-bottom: 24%;
+}
 
 
 

@@ -322,7 +322,6 @@ div.lang a{
   font-weight: 400;
 }
 
-
 a.eng {
     text-decoration: none;
     color: #ffffff;
@@ -456,6 +455,215 @@ a.thaii:hover {
 
 
 
+/* MOBILE */
+
+@media (max-width: 425px) {
+
+body {
+	border: 0px solid #100af2;
+	overflow-y: auto;
+}
+
+div.circle {
+    display: none;
+}
+
+section.left {
+    width: 100%;
+    height: auto;
+    top: 40px;
+}
+
+.left-content {
+    width: auto; 
+    position: absolute;
+    left: 0;
+    margin-left: 6%;
+    margin-right: 6%;
+    top: 72px;
+}
+
+.info {
+    margin-top: 25px;
+    line-height: 1.3;
+    font-size: 14px;
+}
+
+section.right {
+    width: 100%;
+    height: auto; 
+    position: absolute;
+    /*top: 675px;*/
+    top: 778px;
+    left: 0;
+    color: #fff;
+    background-color: #100af2;
+    height: 720px;
+}
+
+.right-content {
+     width: auto; 
+    position: absolute;
+    left: 0;
+    margin-left: 6%;
+    /* right: 15%; */
+    top: 6.2%;
+    right: 6%;
+}
+
+.menu {
+	width: 100%;
+}
+
+.langg {
+	display: none;
+}
+
+#phutti {
+	color: #fff;
+}
+
+.menu-toggle {
+    position: fixed;
+    top: 0;
+    right: 0;
+    margin-top: 6%;
+    margin-right: 6%;
+    cursor: pointer;
+    z-index: 2;
+}
+
+h4 {
+    width: 100%;
+    font-family: Oswald;
+    font-weight: 400;
+    font-size: 25.5px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    padding-left: 6%;
+    background-color: #fff;
+ }   
+
+h4 img {
+	vertical-align: bottom;
+    width: 123px;
+    margin-top: 4%;
+    margin-bottom: 7px;
+}
+
+p#p {    
+	font-size: 22px;
+    color: #100af2;
+    width: 135px;
+    height: 36px;
+    position: absolute;
+    top: 65px;
+    left: 6%;
+    font-weight: 400;
+}
+
+.info {
+    margin-top: 25px;
+    line-height: 1.3;
+    font-size: 14px;
+    font-weight: 200;
+}
+
+.date {
+    margin-top: 15px;
+    font-weight: 400;
+}
+
+p {
+    margin-bottom: 3px;
+    font-weight: 400;
+}
+
+.info {
+    margin-top: 25px;
+    line-height: 1.3;
+    font-size: 14px;
+    font-weight: 200;
+}
+
+
+img#p {
+    margin: 28px 0 25px 0;
+}
+
+nav {
+    position: absolute;
+    left: 50%;
+    top: 45%;
+    transform: translate(-50%, -50%);
+}
+
+div.lang {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 105.29px;
+    margin-bottom: 24%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}	
 
 
 

@@ -407,12 +407,20 @@ div.langg {
   display: none;
 }
 
+nav {
+    position: absolute;
+    left: 50%;
+    top: 45%;
+    transform: translate(-50%, -50%);
+}
+
 div.lang {
-    position: fixed;
+    position: absolute;
     bottom: 0;
-    left: 53%;
+    left: 50%;
     transform: translateX(-50%);
-    margin-bottom: 40px;
+    width: 105.29px;
+    margin-bottom: 24%;
 }
 
 
