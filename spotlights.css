@@ -222,8 +222,6 @@ h2 {
 
 
 
-
-
 /*menu bar*/
 
 .menu-toggle{
@@ -301,11 +299,10 @@ nav a.selected {
 
 
 
-
 /* menuuuuuuu */
 
 
-div.lang {
+div.langg {
   position: fixed;
   bottom: 0;
   right: 0;
@@ -313,7 +310,7 @@ div.lang {
   margin-right: 62px;
 }
 
-div.lang a{
+div.langg a{
   width: 80px;
   height: 80px;
   border-radius: 50%;
@@ -442,7 +439,13 @@ a.thaii:hover {
     border: 1px solid #100af2;
 }
 
+p#p {
+  display: none;
+}
 
+#logoo {
+  display: none;
+}
 
 
 
@@ -462,6 +465,15 @@ a.thaii:hover {
 body {
 	border: 0px solid #100af2;
 	overflow-y: auto;
+}
+
+
+p#p {
+  display: block;
+}
+
+#logoo {
+  display: block;
 }
 
 div.circle {
@@ -600,7 +612,7 @@ nav {
     transform: translate(-50%, -50%);
 }
 
-div.lang {
+div.langg {
     position: absolute;
     bottom: 0;
     left: 50%;

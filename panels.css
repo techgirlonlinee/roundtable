@@ -196,8 +196,8 @@ div.critics {
 
 div.content2 {
 	width: 430px;
-	padding-top: 110px;
-	padding-left: 100px;
+    padding-top: 93px;
+    padding-left: 108px;
 	color: #100af2;
 	margin-top: 23px;
 }
@@ -370,7 +370,7 @@ img#mmpic {
 /* menuuuuuuu */
 
 
-div.lang {
+div.langg, div.lang {
   position: fixed;
   bottom: 0;
   right: 0;
@@ -378,7 +378,7 @@ div.lang {
   margin-right: 62px;
 }
 
-div.lang a{
+div.langg a, div.lang a{
   width: 80px;
   height: 80px;
   border-radius: 50%;
@@ -518,11 +518,21 @@ a.thaii:hover {
     border: 1px solid #100af2;
 }
 
-/*h6 {
-	display: none;
-}*/
+h6 {
+    display: none;
+}
 
+.pan-section {
+    display: none;
+}
 
+.pan-section2 {
+    display: none;
+}
+
+.pan-section3 {
+    display: none;
+}
 
 
 
@@ -537,6 +547,23 @@ body {
     overflow-x: hidden;
     width: 100vw;
 }
+
+h6{
+    display: block;
+}
+
+.pan-section {
+    display: block;
+}
+
+.pan-section2 {
+    display: block;
+}
+
+.pan-section3 {
+    display: block;
+}
+
 
 div.border {
     display: none; }

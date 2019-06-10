@@ -125,3 +125,42 @@ nav a.selected {
   width: 30px;
   height: 30px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+/* MOBILE */
+
+@media (max-width: 425px) {
+
+	.menu {
+	width: 100%;
+}
+
+.menu-toggle {
+    position: fixed;
+    top: 0;
+    right: 0;
+    margin-top: 6%;
+    margin-right: 6%;
+    cursor: pointer;
+    z-index: 2;
+}
+
+nav {
+    position: absolute;
+    left: 50%;
+    top: 45%;
+    transform: translate(-50%, -50%);
+}
+
+}
+

@@ -133,7 +133,7 @@ a.purin {
 /* menuuuuuuu */
 
 
-div.lang {
+div.langg, div.lang {
   position: fixed;
   bottom: 0;
   right: 0;
@@ -141,7 +141,7 @@ div.lang {
   margin-right: 62px;
 }
 
-div.lang a{
+div.langg a, div.lang a{
   width: 80px;
   height: 80px;
   border-radius: 50%;
@@ -403,15 +403,16 @@ h2 {
   margin-left: 20px;
 }
 
-div.langg {
-  display: none;
-}
-
 nav {
     position: absolute;
     left: 50%;
     top: 45%;
     transform: translate(-50%, -50%);
+}
+
+
+div.langg {
+  display: none;
 }
 
 div.lang {

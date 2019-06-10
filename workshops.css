@@ -348,7 +348,7 @@ div.producer {
 /* menuuuuuuu */
 
 
-div.lang {
+div.langg, div.lang {
   position: fixed;
   bottom: 0;
   right: 0;
@@ -356,7 +356,7 @@ div.lang {
   margin-right: 62px;
 }
 
-div.lang a{
+div.langg a, div.lang a{
   width: 80px;
   height: 80px;
   border-radius: 50%;
@@ -492,8 +492,21 @@ a.thaii:hover {
     border: 1px solid #100af2;
 }
 
+h6 {
+    display: none;
+}
 
+.pan-section {
+    display: none;
+}
 
+.pan-section2 {
+    display: none;
+}
+
+.pan-section3 {
+    display: none;
+}
 /* pop up names */
 
 
@@ -593,6 +606,22 @@ body {
     font-size: 13px;
     overflow-x: hidden;
     width: 100vw;
+}
+
+h6{
+    display: block;
+}
+
+.pan-section {
+    display: block;
+}
+
+.pan-section2 {
+    display: block;
+}
+
+.pan-section3 {
+    display: block;
 }
 
 div.border {
@@ -959,6 +988,11 @@ nav {
     transform: translate(-50%, -50%);
 }
 
+
+div.langg {
+  display: none;
+}
+
 div.lang {
     position: absolute;
     bottom: 0;
@@ -967,7 +1001,6 @@ div.lang {
     width: 105.29px;
     margin-bottom: 24%;
 }
-
 
 
 
