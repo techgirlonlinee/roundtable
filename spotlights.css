@@ -432,7 +432,9 @@ a.thaii:hover {
 }
 
 
-
+p#p {
+  display: none;
+}
 
 
 

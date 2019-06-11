@@ -95,6 +95,20 @@ body {
   left: 6%;
 }
 
+p#p {    
+font-size: 22px;
+    font-family: kanit;
+    color: #fff;
+    width: 135px;
+    height: 36px;
+    position: absolute;
+    top: 14%;
+    left: 0;
+    margin-left: 5.8%;
+    font-weight: 400;
+}
+
+
 #hash {
   color: #fff;
     font-family: oswald;

@@ -84,6 +84,15 @@ img {
     width: 123px;
 }
 
+p#p {   
+	font-size: 21px; 
+	position: absolute;
+    top: 15%;
+    right: 6%;
+    font-weight: 400;
+    color: #100af2;
+    width: 240px;
+	}
 
 
 /* challenge */

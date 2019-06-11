@@ -162,7 +162,7 @@ div.langg a, div.lang a{
 }
 
 
-a.eng {
+a.thai {
     text-decoration: none;
     color: #ffffff;
     background-color: #100af2;
@@ -170,7 +170,7 @@ a.eng {
     border: 1px solid #100af2;
 }
 
-a.eng:hover {
+a.thai:hover {
     background-color: #fff;
     color: #100af2;
     padding: 2px 6px 3px 6px;
@@ -182,18 +182,19 @@ div.thai a{
   color: #fff;
 }
 
-a.thai{
+a.eng{
   text-decoration: none;
   color: #100af2;
   background-color: #ffffff;
   padding: 2px 6px 3px 6px;
 }
 
-a.thai:hover {
-  color: #ffffff;
+a.eng:hover {
+  color: #100af2;
   border: 2px solid #100af2;
   background-color: #ffffff;
-  padding: 1px 4px 1px 4px;
+  padding: 2px 6px 3px 6px;
+  /*padding: 1px 4px 1px 4px;*/
   /*padding: 1px 2px 2px 3px;*/
 }
 
@@ -313,14 +314,20 @@ a.thaii:hover {
   display: none;
 }
 
+p#p {
+display:none;
+}
 
-
+.links-mobile {
+  display: none;
+}
 
 /*mobile version*/
 
 @media (max-width: 425px) {
 
 p#p {    
+  display:block;
   font-size: 22px;
   font-family: kanit;
     color: #100af2;
@@ -393,6 +400,7 @@ div.links {
 }
 
 .links-mobile {
+    display: flex;
     width: 316px;
     position: absolute;
     left: 6%;
@@ -474,8 +482,9 @@ div.lang {
 @media (max-width: 375px) {
 
 .about {
-  left: 22%;
-}  
+    left: 22%;
+    top: 14.8%;
+}
 
 .links-mobile {
   top: 70%;
@@ -496,6 +505,7 @@ div.lang {
 @media (max-width: 320px) {
   .about {
     left: 25%;
+    top: 16.0%;
   }
 
   section div {
