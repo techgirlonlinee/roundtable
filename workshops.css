@@ -579,10 +579,14 @@ img#spic {
 }
 
 
-
-
-
-
+#p {
+    font-size: 21px;
+    position: absolute;
+    top: 14.4%;
+    right: 15.3%;
+    font-weight: 400;
+    color: #100af2;
+}
 
 
 
@@ -636,7 +640,7 @@ h4 {
     z-index: 1;
     top: 0;
     left: 0;
-    padding-left: 8%;
+    padding-left: 6%;
     background-color: #fff;
  }   
 
@@ -979,6 +983,8 @@ p.main {
 div.location {
 	font-size: 11px;
 	margin-top: 10px;
+    margin-top: 8px;
+    font-style: italic;
 }
 
 nav {
@@ -1002,10 +1008,122 @@ div.lang {
     margin-bottom: 24%;
 }
 
-
-
-
-
+#foureight {
+    margin-top: 30px;
+}
 
 
 }
+
+@media (max-width: 414px) {
+    .one {
+    top: 658px;}
+    div.critics {
+    top: 810px;
+    height: 720px;
+    }
+    .two {
+    top: 1367px;
+    }
+    div.producer {
+        top: 1555px;
+        height: 686px;
+        margin-bottom: 0;
+    }
+.three {
+    top: 2085px; }
+}
+
+@media (max-width: 411px) {
+    div.challenge {
+        top: 103px; }
+
+    .one {
+    top: 676px;
+    left: 70%;
+    }
+
+    div.critics {
+    top: 826px;
+    height: 725px;
+    }
+
+    .two {
+    top: 1390px;}
+
+    div.producer {
+    top: 1576px;
+    height: 579px;
+    }
+
+    .three {
+    top: 2103px;}
+
+}
+
+@media (max-width: 375px) {
+    div.critics {
+        top: 876px;
+    height: 725px;
+}
+div.producer {
+    top: 1612px;
+    height: 579px;
+    margin-bottom: 121px;
+}
+
+div.content {
+    margin-top: 28px;
+}
+
+.one {
+    top: 725px;}
+.two {
+    top: 1459px;
+}
+.three {
+    top: 2194px;
+}
+
+}
+
+@media (max-width: 360px) {
+    div.critics {
+        top: 874px; 
+        height: 770px; }
+    div.producer {
+        top: 1650px;
+        height: 601px;
+    }
+.two {
+    top: 1500px;
+}
+.three {
+    top: 2226px;
+}
+
+}
+
+
+@media (max-width: 320px) {
+    div.critics {
+    top: 936px;
+    height: 976px;
+    }
+.one {
+    top: 786px;
+}
+div.producer {
+    top: 1769px;
+    height: 631px;}
+
+.three {
+    top: 2411px;
+}
+
+.two {
+    top: 1616px;
+}
+
+}    
+

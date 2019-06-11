@@ -3,29 +3,40 @@
 	font-weight: 200;
 	src: url(font/Kanit-ExtraLight.ttf);
 }
-
 @font-face{
 	font-family: Kanit;
 	font-weight: 100;
 	src: url(font/Kanit-Thin.ttf);
 }
-
 @font-face{
 	font-family: Kanit;
 	font-weight: 150;
 	src: url(font/Kanit-Light.ttf);
 }
-
+@font-face{
+	font-family: Kanit;
+	font-weight: 300;
+	src: url(font/Kanit-SemiBoldItalic.ttf);
+}
+@font-face{
+	font-family: Kanit;
+	font-weight: 350;
+	src: url(font/Kanit-SemiBold.ttf);
+}
 @font-face{
 	font-family: Oswald;
 	font-weight: 500;
 	src: url(font/Oswald-Bold.ttf);
 }
-
 @font-face{
 	font-family: Oswald;
 	font-weight: 400;
 	src: url(font/Oswald-Medium.ttf);
+}
+@font-face{
+	font-family: Oswald;
+	font-weight: 200;
+	src: url(font/Oswald-Light.ttf);
 }
 
 body {
@@ -134,25 +145,54 @@ nav a.selected {
 
 
 
-
-
-
 /* MOBILE */
 
 @media (max-width: 425px) {
 
-	.menu {
-	width: 100%;
+body {
+	border: 0px solid #100af2;
 }
 
-.menu-toggle {
-    position: fixed;
+.menu {
+  width: 100%;
+  position: fixed;
+}
+
+.menu-toggle{
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin-top: 6%;
+	margin-right: 6%;
+	 cursor: pointer;
+}
+
+.menu-slider {
+  position: absolute;
+  right: 23px;
+  top: 23px;
+  cursor: pointer;
+}
+
+.circle {
+    position: absolute;
     top: 0;
-    right: 0;
-    margin-top: 6%;
-    margin-right: 6%;
-    cursor: pointer;
-    z-index: 2;
+    margin-top: 4%;
+    margin-left: 6%;
+    left: 0; }
+
+
+h1{
+    font-size: 22px;
+    color: #100af2;
+/*    width: 135px;
+    height: 36px;
+    position: absolute;
+    top: 65px;
+    left: 24px;*/
+    font-family: kanit;
+    font-weight: 400;
+    margin-top: 10px;
 }
 
 nav {
@@ -161,6 +201,7 @@ nav {
     top: 45%;
     transform: translate(-50%, -50%);
 }
+
 
 }
 

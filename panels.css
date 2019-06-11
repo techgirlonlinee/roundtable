@@ -577,7 +577,7 @@ h4 {
     z-index: 1;
     top: 0;
     left: 0;
-    padding-left: 8%;
+    padding-left: 6%;
     background-color: #fff;
  }   
 
@@ -874,12 +874,63 @@ div.lang {
 }
 
 
+}
 
 
+@media (max-width: 425px) {
+div.critics {
+        top: 634px;
+        height: 611px;
+    }
+div.producer {
+    top: 1261px;
+    margin-bottom: 73px;
+    }
+
+}
 
 
+@media (max-width: 414px) {
+div.critics {
+    top: 615px;
+    height: 587px;
+    }
+div.producer {
+    top: 1209px;
+    margin-bottom: 66px;
+    }
+}
 
 
+@media (max-width: 375px) {
+div.critics {
+    top: 625px;
+    height: 622px;
+}
+div.producer {
+    top: 1221px;
+}
 
+}    
+
+
+@media (max-width: 360px){
+    div.critics {
+    top: 634px;
+    height: 611px;
+}
+div.producer {
+    top: 1257px;
+}
+
+}
+
+@media (max-width: 320px) {
+div.critics {
+    top: 664px; }
+div.producer {
+    top: 1295px;
+    margin-bottom: 92px;
+}
 
 }

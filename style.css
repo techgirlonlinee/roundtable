@@ -607,15 +607,11 @@ div.lang {
     margin-bottom: 24%;
 }
 
-
-
-
 }
 
-@media (max-width: 360px) {
-
-section.text {
-    top: 549px;
+@media (max-width: 414px) {
+  section.text {
+    top: 518px;
 }  
 }
 
@@ -623,7 +619,7 @@ section.text {
 
 section.text {
     position: absolute;
-    top: 548px;
+    top: 567px;
     left: 0;
     width: 100%;
     /* height: 100%; */
@@ -641,16 +637,22 @@ section.text {
     /* top: 407px; */
     bottom: 120px;
 }
-
 }
 
+@media (max-width: 360px) {
 
+section.text {
+    top: 549px;
+    height: 775px;
+}  
 }
+
 
 @media (max-width: 320px) {
 
 section.text{
-   height: 744px;
+  top: 507px;
+   height: 829px;
    margin-bottom: 34px;
 }
 
@@ -660,5 +662,4 @@ section.text{
     width: 100vw;
     bottom: 36px;
 }
-
 }

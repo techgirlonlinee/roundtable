@@ -71,10 +71,6 @@ section.left {
 	top: 6.2%;
 }	
 
-/*.left-content p{
-	margin-bottom: 30px;
-}*/
-
 img#s {
 	width: 100%;
 	height: 240px;
@@ -95,7 +91,6 @@ section.right {
 	position: absolute;
 	right: 15%;
 	top: 6.2%;
-	/*top: 9.5%;*/
 }
 
 
@@ -134,8 +129,6 @@ a.name:hover {
 	font-style: italic;
 }
 
-
-
 div.circle {
 	width: 250px;
 	height: 250px;
@@ -149,11 +142,8 @@ div.circle {
 }
 
 .circle img {
-/*	width: 100px;*/
 	width: 130px;
 	position: absolute;
-/*	top: 30%;
-	left: 13%;*/
 	top: 33%;
 	left: 23%;
 }
@@ -166,7 +156,6 @@ h4 {
 	position: absolute;
 	top: 53%;
 	left: 22.5%;
-	/*color: #100af2;*/
 	color: #ffffff;
 }
 
@@ -190,7 +179,6 @@ h4 {
 
 .filler {
 	width: 400px;
-	/*margin-top: 100px;*/
 	margin-top: 120px;
 	margin-left: 100px;
 	line-height: 1.3;
@@ -302,7 +290,7 @@ nav a.selected {
 /* menuuuuuuu */
 
 
-div.langg {
+div.langg, div.lang {
   position: fixed;
   bottom: 0;
   right: 0;
@@ -310,7 +298,7 @@ div.langg {
   margin-right: 62px;
 }
 
-div.langg a{
+div.langg a, div.lang a{
   width: 80px;
   height: 80px;
   border-radius: 50%;
@@ -439,10 +427,6 @@ a.thaii:hover {
     border: 1px solid #100af2;
 }
 
-p#p {
-  display: none;
-}
-
 #logoo {
   display: none;
 }
@@ -506,11 +490,14 @@ section.right {
     height: auto; 
     position: absolute;
     /*top: 675px;*/
-    top: 778px;
+/*    top: 778px;*/
     left: 0;
     color: #fff;
     background-color: #100af2;
-    height: 720px;
+/*    height: 720px;*/
+
+    top: 718px;
+    height: 657px;
 }
 
 .right-content {
@@ -527,9 +514,6 @@ section.right {
 	width: 100%;
 }
 
-.langg {
-	display: none;
-}
 
 #phutti {
 	color: #fff;
@@ -613,12 +597,58 @@ nav {
 }
 
 div.langg {
+  display: none;
+}
+
+div.lang {
     position: absolute;
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
     width: 105.29px;
     margin-bottom: 24%;
+}
+
+/*nav a { 
+  font-size: 36px;
+}*/
+
+
+}
+
+
+@media (max-width: 320px) {
+  section.right { 
+    top: 767px;
+    height: 712px;
+}
+}
+
+@media (max-width: 375px) {
+section.right { 
+  top: 749px;
+  height: 674px;
+}
+
+}
+/* iphone 6/7/8 plus */
+@media (max-width: 414px) {
+section.right { 
+    top: 719px;
+    height: 662px;
+}    
+}
+
+
+
+/* iphone X */
+@media (max-width: 375px) {
+
+section.right { 
+  height: 675px;
+  top: 751px;
+}
+
 }
 
 
@@ -648,34 +678,6 @@ div.langg {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-}	
 
 
 

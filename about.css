@@ -1,31 +1,42 @@
 @font-face{
-	font-family: Kanit;
-	font-weight: 200;
-	src: url(font/Kanit-ExtraLight.ttf);
+  font-family: Kanit;
+  font-weight: 200;
+  src: url(font/Kanit-ExtraLight.ttf);
 }
-
 @font-face{
-	font-family: Kanit;
-	font-weight: 100;
-	src: url(font/Kanit-Thin.ttf);
+  font-family: Kanit;
+  font-weight: 100;
+  src: url(font/Kanit-Thin.ttf);
 }
-
 @font-face{
-	font-family: Kanit;
-	font-weight: 300;
-	src: url(font/Kanit-Light.ttf);
+  font-family: Kanit;
+  font-weight: 150;
+  src: url(font/Kanit-Light.ttf);
 }
-
 @font-face{
-	font-family: Oswald;
-	font-weight: 500;
-	src: url(font/Oswald-Bold.ttf);
+  font-family: Kanit;
+  font-weight: 300;
+  src: url(font/Kanit-SemiBoldItalic.ttf);
 }
-
 @font-face{
-	font-family: Oswald;
-	font-weight: 400;
-	src: url(font/Oswald-Medium.ttf);
+  font-family: Kanit;
+  font-weight: 350;
+  src: url(font/Kanit-SemiBold.ttf);
+}
+@font-face{
+  font-family: Oswald;
+  font-weight: 500;
+  src: url(font/Oswald-Bold.ttf);
+}
+@font-face{
+  font-family: Oswald;
+  font-weight: 400;
+  src: url(font/Oswald-Medium.ttf);
+}
+@font-face{
+  font-family: Oswald;
+  font-weight: 200;
+  src: url(font/Oswald-Light.ttf);
 }
 
 body {
@@ -309,6 +320,18 @@ a.thaii:hover {
 
 @media (max-width: 425px) {
 
+p#p {    
+  font-size: 22px;
+  font-family: kanit;
+    color: #100af2;
+    width: 135px;
+    height: 36px;
+    position: absolute;
+    top: 65px;
+    left: 24px;
+    font-weight: 400;
+}
+
   #logo {
   display: block;
   width: 130px;
@@ -354,7 +377,7 @@ section {
 
 section div {
     position: absolute;
-    top: 50%;
+    top: 48%;
     left: 6%;
     margin-right: 6%;
     transform: translateY(-50%);
@@ -364,8 +387,23 @@ div.links {
   display: none;
 }
 
+.links-mobile img {
+  width: 35px;
+  height: 35px;
+}
+
+.links-mobile {
+    width: 316px;
+    position: absolute;
+    left: 6%;
+    top: 68%;
+    transform: translateX(0);
+    margin-top: 8px;
+  }
+
 p.info {
   width: 277px;
+  font-size: 18px;
 }
 
 div.lang {
@@ -379,6 +417,7 @@ div.lang {
     font-size: 21px;
     position: absolute;
     top: 12.8%;
+    left: 20%;
     /* left: 0; */
     /* transform: translateX(-50%); */
     color: #fff;
@@ -424,8 +463,47 @@ div.lang {
     margin-bottom: 24%;
 }
 
+}
 
+@media (max-width: 414px) {
+  .about {
+    left: 21%;
+  }
+}
 
+@media (max-width: 375px) {
 
+.about {
+  left: 22%;
+}  
+
+.links-mobile {
+  top: 70%;
+}
+}
+
+@media (max-width: 360px) {
+  section div {
+    top: 51%;
+  }
+
+  .links-mobile {
+    top: 73%;
+  }
+
+}
+
+@media (max-width: 320px) {
+  .about {
+    left: 25%;
+  }
+
+  section div {
+    top: 56%;
+  }
+
+  .links-mobile {
+    top: 79%;
+  }
 
 }
