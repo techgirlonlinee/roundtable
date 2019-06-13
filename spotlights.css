@@ -152,9 +152,10 @@ div.circle {
 
 h4 {
 	width: 100px;
-	font-family: Oswald;
+	font-family: kanit;
 	font-weight: 400;
-	font-size: 27.8px;
+  font-size: 24px;
+/*	font-size: 27.8px;*/
 	position: absolute;
 	top: 53%;
 	left: 22.5%;
@@ -267,12 +268,6 @@ nav a.selected {
 	color: transparent;
   	-webkit-text-stroke: 1px #ffffff;
 }
-
-/*.menu-slider{
-	position: absolute;
-	top: 10%;
-	right: 53.5%;
-}*/
 
 .menu-slider{
   position: absolute;
@@ -453,6 +448,7 @@ p#p {
 body {
 	border: 0px solid #100af2;
 	overflow-y: auto;
+  font-size: 15px;
 }
 
 
@@ -469,49 +465,49 @@ div.circle {
 }
 
 section.left {
-    width: 100%;
-    height: auto;
-    top: 40px;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 740px;
+    top: 0;
+    position: unset;
 }
 
 .left-content {
-    width: auto; 
+    width: auto;
     position: absolute;
     left: 0;
     margin-left: 6%;
     margin-right: 6%;
-    top: 72px;
+    margin-top: 39px;
 }
 
-.info {
+p.info {
     margin-top: 25px;
     line-height: 1.3;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 section.right {
     width: 100%;
     height: auto; 
     position: absolute;
-    /*top: 675px;*/
-/*    top: 778px;*/
     left: 0;
     color: #fff;
     background-color: #100af2;
-/*    height: 720px;*/
 
     top: 718px;
     height: 657px;
 }
 
 .right-content {
-     width: auto; 
+    width: auto; 
     position: absolute;
     left: 0;
     margin-left: 6%;
-    /* right: 15%; */
     top: 6.2%;
     right: 6%;
+    transform: translateY(0);
 }
 
 .menu {
@@ -613,34 +609,30 @@ div.lang {
     margin-bottom: 24%;
 }
 
-/*nav a { 
-  font-size: 36px;
-}*/
-
-
 }
 
 
-@media (max-width: 320px) {
-  section.right { 
-    top: 767px;
-    height: 712px;
-}
+
+
+
+@media (max-width: 411px) {
+.left-content {
+  margin-top: 47px;
 }
 
-@media (max-width: 375px) {
-section.right { 
-  top: 749px;
-  height: 674px;
-}
+
 
 }
 /* iphone 6/7/8 plus */
 @media (max-width: 414px) {
 section.right { 
-    top: 719px;
-    height: 662px;
+  top: 760px;
+   height: 709px;
 }    
+
+.left-content {
+  margin-top: 59px;
+}
 }
 
 
@@ -648,16 +640,37 @@ section.right {
 /* iphone X */
 @media (max-width: 375px) {
 
-section.right { 
-  height: 675px;
-  top: 751px;
+.left-content {
+    margin-top: 40px;
+}
+
+section.right {
+    top: 781px;
 }
 
 }
 
 
+@media (max-width: 360px) {
+
+.left-content {
+    margin-top: 123px;
+}
+section.right {
+    top: 793px;
+    height: 762px;} 
 
 
+}
+
+@media (max-width: 320px) {
+.left-content {
+    margin-top: 161px;
+}
+section.right {
+    height: 795px;
+}
+}
 
 
 

@@ -597,15 +597,15 @@ p#p {
     left: 24px;}
 
 div.challenge {
-    position: absolute;
-    /*top: 13%;*/
+    position: unset;
+    display: flex;
+    flex-direction: column;
     width: 100%;
-    top: 86px;
-    left: 0;
-    /*width: 470px;*/
     border-radius: 0;
     background-color: #fff;
     color: #100af2;
+    height: 568px;
+    margin-top: 90px;
 }
 
 div.content {
@@ -636,7 +636,7 @@ div.link {
     padding-top: 20px;
     font-weight: 150;
     line-height: 1.2;
-    font-size: 15px;
+    font-size: 18px;
 }
 
 .line {
@@ -656,24 +656,23 @@ div.link {
     font-weight: 400; }
 
 div.location {
-    margin-top: 3px;
+    margin-top: 4px;
     font-size: 13px;
     font-weight: 400;
+    font-style: italic;
 }
 
 
 div.critics {
-	position: absolute;
-    /*top: 564px;*/
-    top: 662px;
-    left: 0;
-    /*width: 470px;*/
-    /*height: 623px;*/
-    width: 100%;
+    position: unset;
+    height: 630px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
     border-radius: 0;
+    width: 100%;
     background-color: #100af2;
     color: #fff;
-    height: 636px;
 }
 
 div.content2 {
@@ -688,16 +687,13 @@ div.content2 {
 }
 
 div.producer {
-    /*width: 570px;*/
-        height: 500px;
-    position: absolute;
-    top: 1281px;
+    margin-bottom: 0;
+    position: unset;
+    height: 584px;
     left: 0;
-    /* width: 470px; */
     width: 100%;
     border-radius: 0;
     background-color: #ffff;
-    top: 1295px;
 }
 
 .menu-toggle {
@@ -876,38 +872,23 @@ div.lang {
 }
 
 
-@media (max-width: 425px) {
-div.critics {
-        top: 634px;
-        height: 611px;
-    }
-div.producer {
-    top: 1261px;
-    margin-bottom: 73px;
-    }
-
-}
-
 
 @media (max-width: 414px) {
+div.challenge {
+    height: 584px;
+}    
 div.critics {
-    top: 615px;
-    height: 587px;
-    }
+    height: 646px;
+}
 div.producer {
-    top: 1209px;
-    margin-bottom: 66px;
-    }
+    margin-bottom: 0;
+}
 }
 
 
 @media (max-width: 375px) {
-div.critics {
-    top: 625px;
-    height: 622px;
-}
 div.producer {
-    top: 1221px;
+    height: 602px;
 }
 
 }    
@@ -916,7 +897,7 @@ div.producer {
 @media (max-width: 360px){
     div.critics {
     top: 634px;
-    height: 611px;
+    height: 656px;
 }
 div.producer {
     top: 1257px;
@@ -925,11 +906,15 @@ div.producer {
 }
 
 @media (max-width: 320px) {
+div.challenge {
+    height: 617px;
+}
 div.critics {
-    top: 664px; }
+    height: 698px;
+}
 div.producer {
-    top: 1295px;
-    margin-bottom: 92px;
+    height: 643px;
+    margin-bottom: 0;
 }
 
 }

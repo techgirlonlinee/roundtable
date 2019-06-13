@@ -77,15 +77,6 @@ img {
     width: 123px;
 }
 
-/*p#p {   
-	font-size: 21px; 
-	position: absolute;
-    top: 15%;
-    right: 6%;
-    font-weight: 400;
-    color: #100af2;
-    width: 240px;
-	}*/
 
 p#p {
 	font-size: 22px;
@@ -732,6 +723,10 @@ div.link {
 	display: none;
 }
 
+.line3 {
+    display: none;
+}
+
 .date1, .date2 {
     display: block;
     line-height: 1.6;
@@ -1036,58 +1031,61 @@ div.lang {
 }
 
 @media (max-width: 414px) {
-    .one {
-    top: 658px;}
-    div.critics {
-    top: 810px;
-    height: 720px;
-    }
-    .two {
+.one {
+    top: 803px;
+}
+.two {
     top: 1367px;
-    }
-    div.producer {
-        top: 1555px;
-        height: 686px;
-        margin-bottom: 0;
-    }
+}
 .three {
-    top: 2085px; }
+    top: 2085px;
+}
+div.critics {
+    top: 950px;
+    height: 830px;
+}
+div.producer {
+    top: 1773px;
+    height: 686px;
+    margin-bottom: 0;
+}
 }
 
 @media (max-width: 411px) {
+
+    div.critics {
+    top: 962px;
+    height: 826px;
+}
     div.challenge {
         top: 103px; }
 
-    .one {
-    top: 676px;
-    left: 70%;
-    }
-
-    div.critics {
-    top: 826px;
-    height: 725px;
-    }
-
-    .two {
-    top: 1390px;}
-
     div.producer {
-    top: 1576px;
+    top: 1788px;
     height: 579px;
-    }
+}
 
-    .three {
-    top: 2103px;}
+.one {
+    top: 814px;
+    left: 70%;
+}
+.two {
+    top: 1649px;}
+
+.three {
+    top: 2384px;
+}
+
 
 }
 
 @media (max-width: 375px) {
-    div.critics {
-        top: 876px;
-    height: 725px;
-}
+div.critics {
+    top: 1087px;
+    height: 1025px;
+}    
 div.producer {
-    top: 1612px;
+    top: 2012px;
     height: 579px;
     margin-bottom: 121px;
 }
@@ -1097,53 +1095,55 @@ div.content {
 }
 
 .one {
-    top: 725px;}
+    top: 944px;
+}
 .two {
-    top: 1459px;
+    top: 1859px;
 }
 .three {
-    top: 2194px;
+    top: 2721px;
 }
-
 }
 
 @media (max-width: 360px) {
-    div.critics {
-        top: 874px; 
-        height: 770px; 
-    }
-    div.producer {
-        top: 1650px;
-        height: 601px;
-    }
+div.critics {
+    top: 1108px;
+    height: 962px;
+}
+div.producer {
+    top: 2076px;
+    height: 729px;
+}
+.one {
+    top: 966px;
+}
 .two {
-    top: 1500px;
+    top: 1931px;
 }
 .three {
-    top: 2226px;
+    top: 2782px;
 }
 
 }
 
 
 @media (max-width: 320px) {
-    div.critics {
-    top: 936px;
-    height: 976px;
-    }
-.one {
-    top: 786px;
+div.critics {
+    top: 1178px;
+    height: 1054px;
 }
 div.producer {
-    top: 1769px;
-    height: 631px;}
-
-.three {
-    top: 2411px;
+    top: 2240px;
+    height: 631px;
 }
-
+.one {
+    top: 1037px;
+}
 .two {
-    top: 1616px;
+    top: 2097px;
+}
+.three {
+    top: 2999px;
 }
 
 }    

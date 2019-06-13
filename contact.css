@@ -348,7 +348,7 @@ p#p {
     height: 36px;
     position: absolute;
     top: 65px;
-    left: 24px;
+    /*left: 24px;*/
     font-weight: 400;
 }
 

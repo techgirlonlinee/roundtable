@@ -543,7 +543,7 @@ div.content {
     border-radius: 50%;
 /*    z-index: 1;*/
     position: absolute;
-    top: 42%;
+    top: 45%;
     left: 28%;
     margin-bottom: 32px;
     background-color: #fff;
@@ -612,6 +612,7 @@ div.lang {
 @media (max-width: 414px) {
   section.text {
     top: 518px;
+    height: 827px;
 }  
 }
 
@@ -622,8 +623,7 @@ section.text {
     top: 567px;
     left: 0;
     width: 100%;
-    /* height: 100%; */
-    height: 744px;
+    height: 827px;
     color: #100af2;
     background-color: #fff;
     overflow: hidden;
@@ -637,13 +637,21 @@ section.text {
     /* top: 407px; */
     bottom: 120px;
 }
+
+.footer img {
+  margin-top: -141px;
+}
+
+#spotlights {
+  top: 72%;
+}
 }
 
 @media (max-width: 360px) {
 
 section.text {
     top: 549px;
-    height: 775px;
+  height: 860px;
 }  
 }
 

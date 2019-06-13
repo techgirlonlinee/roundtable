@@ -81,7 +81,9 @@ p#p {
     height: 36px;
     position: absolute;
     top: 17%;
-    left: 7.8%;}
+    left: 7.8%;
+    font-weight: 400;
+}
 
 div.link:hover a{
 	font-style: italic;
@@ -537,10 +539,12 @@ h6 {
 
 
 body {
-	font-family: kanit;
+    font-family: kanit;
     font-size: 13px;
     overflow-x: hidden;
     width: 100vw;
+    display: flex;
+    flex-direction: column;
 }
 
 h6{
@@ -574,7 +578,7 @@ h4 {
     left: 0;
     padding-left: 6%;
     background-color: #fff;
- }   
+} 
 
 h4 img {
 	vertical-align: bottom;
@@ -583,36 +587,41 @@ h4 img {
     margin-bottom: 7px;
 }
 
-p#p {    
-	font-size: 22px;
+p#p {
+    font-size: 22px;
     color: #100af2;
     width: 135px;
     height: 36px;
     position: absolute;
     top: 65px;
-    left: 24px;}
+    left: 24px;
+    font-weight: 400;
+}
 
 div.challenge {
-    position: absolute;
-    /*top: 13%;*/
+    position: unset;
+    display: flex;
+    flex-direction: column;
     width: 100%;
-    top: 86px;
-    left: 0;
-    /*width: 470px;*/
     border-radius: 0;
     background-color: #fff;
     color: #100af2;
+    height: 655px;
+    margin-top: 90px;
 }
 
 div.content {
     width: 100%;
     padding-left: 25px;
-    padding-right: 25px; 
+    padding-right: 25px;
     color: #100af2;
-/*    margin-top: 0;*/
     padding-top: 20px;
     margin-top: 17px;
 }
+
+.pan-section {
+    display: block;
+}    
 
 h1,h2 {
 	font-family: Oswald;
@@ -632,7 +641,7 @@ div.link {
     padding-top: 20px;
     font-weight: 150;
     line-height: 1.2;
-    font-size: 15px;
+    font-size: 18px;
 }
 
 .line {
@@ -648,52 +657,47 @@ div.link {
     line-height: 1.6;
     flex-direction: row;
     justify-content: space-between;
-    font-size: 14px;
-    font-weight: 400; }
+    font-size: 16px;
+    font-weight: 400; 
+}
 
 div.location {
-    margin-top: 3px;
-    font-size: 13px;
+    margin-top: 4px;
+    font-size: 15px;
     font-weight: 400;
+    font-style: italic;
 }
-
 
 div.critics {
-	position: absolute;
-    /*top: 564px;*/
-    top: 662px;
-    left: 0;
-    /*width: 470px;*/
-    /*height: 623px;*/
-    width: 100%;
+    position: unset;
+    height: 721px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
     border-radius: 0;
+    width: 100%;
     background-color: #100af2;
     color: #fff;
-    height: 636px;
 }
 
+
 div.content2 {
-	color: #fff;
+    color: #fff;
     width: 100%;
     padding-left: 25px;
-    padding-right: 25px; 
-    /*margin-top: 20px;*/
+    padding-right: 25px;
     margin-top: 36px;
-
     padding-top: 0;
 }
 
 div.producer {
-    /*width: 570px;*/
-        height: 500px;
-    position: absolute;
-    top: 1281px;
+	margin-bottom: 0;
+    position: unset;
+    height: 649px;
     left: 0;
-    /* width: 470px; */
     width: 100%;
     border-radius: 0;
     background-color: #ffff;
-    top: 1295px;
 }
 
 .menu-toggle {
@@ -730,6 +734,7 @@ h6 {
     margin-left: 7.3%;
     margin-bottom: 8px;
     font-size: 20px;
+    font-weight: 400;
 }
 
 .pan-style {
@@ -872,7 +877,7 @@ div.lang {
 }
 
 
-@media (max-width: 425px) {
+/*@media (max-width: 425px) {
 div.critics {
         top: 634px;
         height: 611px;
@@ -926,6 +931,72 @@ div.critics {
 div.producer {
     top: 1295px;
     margin-bottom: 92px;
+}
+
+}
+*/
+
+
+@media (max-width: 414px) {
+div.challenge {
+    height: 682px;
+}    
+div.critics {
+    height: 722px;
+}
+div.producer {
+    margin-bottom: 0;
+}
+}
+
+@media (max-width: 411px) {
+	div.challenge {
+	height: 682px;
+	}
+	div.critics {
+    height: 709px;   
+	}
+	div.producer {
+    margin-bottom: 0;
+	}
+	    
+}
+
+@media (max-width: 375px) {
+div.challenge {
+    height: 711px;
+}
+div.critics {
+    height: 749px;
+}
+div.producer {
+    height: 696px;
+}
+
+}    
+
+
+@media (max-width: 360px){
+    div.critics {
+    top: 634px;
+    height: 611px;
+}
+div.producer {
+    top: 1257px;
+}
+
+}
+
+@media (max-width: 320px) {
+div.challenge {
+    height: 775px;
+}
+div.critics {
+    height: 831px;
+}    
+div.producer {
+    height: 643px;
+    margin-bottom: 0;
 }
 
 }
