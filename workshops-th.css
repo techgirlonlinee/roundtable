@@ -45,8 +45,6 @@ div.border {
 	width: 100%;
 	height: 100%;
 	border: 14px solid #100af2;
-/*	z-index: 3;
-	pointer-events: none;*/
 }
 
 div.outer {
@@ -57,9 +55,6 @@ div.outer {
 }
 
 body {
-/*	border: 14px solid #100af2;
-	width: 100vw;
-	height: 100vh;*/
 	font-family: kanit;
 	font-weight: 150;
 	font-size: 13px;
@@ -68,13 +63,11 @@ body {
 
 h4 {
 	width: 240px;
-	/*width: 140px;*/
 	font-family: Oswald;
 	font-weight: 400;
 	font-size: 25px;
 	position: absolute;
 	top: 9.4%;
-    /*left: 8%;*/
     right: 6%;
 	color: #100af2;
 }
@@ -84,7 +77,7 @@ img {
     width: 123px;
 }
 
-p#p {   
+/*p#p {   
 	font-size: 21px; 
 	position: absolute;
     top: 15%;
@@ -92,7 +85,23 @@ p#p {
     font-weight: 400;
     color: #100af2;
     width: 240px;
-	}
+	}*/
+
+p#p {
+	font-size: 22px;
+    width: 135px;
+    height: 36px;
+    position: absolute;
+    top: 16.3%;
+    margin-left: 7%;
+    font-weight: 400;
+    font-size: 21px;
+    position: absolute;
+    top: 16;
+    right: 14.3%;
+    font-weight: 400;
+    color: #100af2;
+}
 
 
 /* challenge */
@@ -124,7 +133,6 @@ h1, h2, h3 {
 div.link {
 	display: block;
 	width: 440px;
-	/*color: #ffffff;*/	
 	font-family: Oswald;
 	font-weight: 200;
 	margin-bottom: 5px;
@@ -196,8 +204,6 @@ div.critics {
 	width: 590px;
 	height: 590px;
 	position: absolute;
-/*	top: 550px;
-	left: 600px;*/
 	top: 83%;
 	left: 44%;
 	border-radius: 50%;
@@ -234,15 +240,11 @@ div.content2 {
 /* producer */
 
 div.producer {
-/*	width: 520px;
-	height: 520px;*/
 	width: 570px;
 	height: 570px;
 	border-radius: 50%;
 	background-color: #100af2;
 	position: absolute;
-/*	top: 980px;
-	left: 100px;*/
 	top: 154%;
 	left: 6%;
 	margin-bottom: 100px;
@@ -277,13 +279,10 @@ div.content3 {
 	transform: translate(-50%, -50%);
 	color: #ffffff;
 	display: none;
-/*	opacity: 0;
-	transition: opacity 0.5s ease;*/
 }
 
 .filler {
 	width: 400px;
-	/*margin-top: 100px;*/
 	margin-top: 40px;
 	margin-left: 100px;
 }
@@ -305,7 +304,6 @@ div.content3 {
 	height: 52px;
 	position: absolute;
 	border-radius: 50%;
-	/*background-color: #ffffff;*/
 	background-color: transparent;
 	transition: all 2s ease;
 	z-index: 2;
@@ -373,7 +371,7 @@ div.content3 {
 /* menuuuuuuu */
 
 
-div.lang {
+div.langg, div.lang {
   position: fixed;
   bottom: 0;
   right: 0;
@@ -381,7 +379,7 @@ div.lang {
   margin-right: 62px;
 }
 
-div.lang a{
+div.langg a, div.lang a{
   width: 80px;
   height: 80px;
   border-radius: 50%;
@@ -389,7 +387,6 @@ div.lang a{
   font-family: Oswald;
   font-weight: 400;
 }
-
 
 a.eng {
     text-decoration: none;
@@ -518,6 +515,25 @@ a.thaii:hover {
     border: 1px solid #100af2;
 }
 
+h6 {
+	display: none;
+}
+
+.nope {
+	display: block;
+}
+
+.pan-section {
+    display: none;
+}
+
+.pan-section2 {
+    display: none;
+}
+
+.pan-section3 {
+    display: none;
+}
 
 
 /* pop up names */
@@ -587,3 +603,548 @@ img#spic {
     margin-left: 240px;
     object-fit: cover;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+/* MOBILE */
+
+@media (max-width: 425px) {
+
+
+body {
+	font-family: kanit;
+    font-size: 13px;
+    overflow-x: hidden;
+    width: 100vw;
+}
+
+h6{
+    display: block;
+}
+
+p#p{
+    display: block;
+}
+
+.pan-section {
+    display: block;
+}
+
+.pan-section2 {
+    display: block;
+}
+
+.pan-section3 {
+    display: block;
+}
+
+div.border {
+    display: none; }
+
+h4 {
+    width: 100%;
+    font-family: Oswald;
+    font-weight: 400;
+    font-size: 25.5px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    padding-left: 7%;
+    background-color: #fff;
+ }   
+
+h4 img {
+	vertical-align: bottom;
+    width: 123px;
+    margin-top: 4%;
+    margin-bottom: 7px;
+}
+
+p#p {    
+	font-size: 22px;
+    color: #100af2;
+    width: 135px;
+    height: 36px;
+    position: absolute;
+    /*top: 15.4%;*/
+    top: 65px;
+    /*top: 16%;*/
+    left: 0;
+    margin-left: 7%;
+    font-weight: 400;
+}
+
+div.challenge {
+    position: absolute;
+    width: 100%;
+    top: 86px;
+    left: 0;
+    border-radius: 0;
+    background-color: #fff;
+    color: #100af2;
+}
+
+div.content {
+    width: 100%;
+    padding-left: 25px;
+    padding-right: 25px; 
+    color: #100af2;
+    padding-top: 0px;
+    margin-top: 17px;
+}
+
+h1,h2 {
+	font-family: Oswald;
+    font-weight: 400;
+    font-size: 25px;
+    margin-bottom: 10px;
+    width: 198px;
+    line-height: 1.2;
+    text-decoration: underline;    
+}
+
+div.link {
+	display: none;
+}
+
+.main {
+    padding-top: 20px;
+    font-weight: 150;
+    line-height: 1.2;
+    font-size: 15px;
+}
+
+.line {
+    display: none;
+}    
+
+.line2 {
+	display: none;
+}
+
+.date1, .date2 {
+    display: block;
+    line-height: 1.6;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 16px;
+    font-weight: 400; }
+
+div.location {
+	font-size: 11px;
+	margin-top: 10px;
+    margin-top: 8px;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+
+
+div.critics {
+	position: absolute;
+    left: 0;
+    width: 100%;
+    border-radius: 0;
+    background-color: #100af2;
+    color: #fff;
+    height: 832px;
+    top: 909px;
+}
+
+div.content2 {
+	color: #fff;
+    width: 100%;
+    padding-left: 25px;
+    padding-right: 25px; 
+    margin-top: 36px;
+
+    padding-top: 0;
+}
+
+
+div.content3 {
+    width: 100%;
+    padding-left: 25px;
+    padding-right: 25px; 
+    color: #100af2;
+    padding-top: 0px;
+    margin-top: 17px;
+    color: #100af2;
+}
+
+
+
+div.producer {
+    height: 500px;
+    position: absolute;
+    top: 1281px;
+    left: 0;
+    width: 100%;
+    border-radius: 0;
+    background-color: #ffff;
+     top: 1768px;
+     height: 686px;
+}
+
+.menu-toggle {
+    position: fixed;
+    top: 0;
+    right: 0;
+    margin-top: 6%;
+    margin-right: 6%;
+    z-index: 1;
+}    
+
+#eliminate {
+	display: none;
+}
+
+.langg {
+	display: none;
+}
+
+.menu {
+	width: 100%;
+}
+
+.menu-slider {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-right: 6%;
+    margin-top: 6%;
+}
+
+h6 {
+	margin-top: 24px;
+    margin-left: 7.3%;
+    margin-bottom: 8px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.pan-style {
+	margin-top: 17px;
+}
+
+#panel3 {
+	color: #100af2;
+}
+
+.pan-section3{
+	color: #100af2;
+}
+
+#one, #four, #seven {
+	position: absolute;
+    left: 0;
+    margin-left: 22px;
+    margin-top: 10px;
+}
+
+img#jpic, img#cpic, img#ccpic {
+    vertical-align: bottom;
+    max-width: 100%;
+    width: 83px;
+    height: 83px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-left: 0;
+}
+
+#one h3, #four h3, #seven h3 {
+	margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    font-size: 10px;
+    width: 32px;
+    margin-left: 25px;
+}
+
+#seven h3 {
+	width: 90px;
+	margin-left: 0;
+}
+
+#four h3 {
+	width: 61px;
+    margin-left: 11px;
+}
+
+#two, #five, #eight {
+	position: absolute;
+    left: 120px;
+    margin-top: 3px;
+}
+
+img#npic, img#aapic, img#wpic {
+    vertical-align: bottom;
+    margin-top: 6px;
+    max-width: 100%;
+    width: 83px;
+    height: 83px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-left: 0px;
+}
+
+#two h3, #five h3, #eight h3{
+	margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    font-size: 10px;
+    width: 32px;
+    margin-left: 25px;
+}
+
+#three, #six, #nine {
+	position: absolute;
+    left: 199px;
+    margin-top: 3px;
+}
+
+#three {
+	width: 85px;
+}
+
+img#apic, img#mmpic{
+	vertical-align: bottom;
+	margin-top: 6px;
+	max-width: 100%;
+	width: 83px;
+    height: 83px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-left: 18px;
+}
+
+#three h3, #six h3, #nine h3 {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    font-size: 10px;
+    margin-left: 34px;
+}
+
+#six h3 {
+    margin-left: 13px;
+}
+
+#panel2 {
+	margin-top: 25px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+
+img#mpic {
+	vertical-align: bottom;
+	margin-top: 6px;
+	max-width: 100%;
+	width: 83px;
+    height: 83px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-left: 18px;
+}
+
+#eight h3 {
+	width: 90px;
+    margin-left: 0;
+}
+
+#nine h3 {
+    margin-left: 15px;
+}
+
+p.main {
+	width: auto;
+    margin-left: auto;
+    font-size: 17.5px;
+}
+
+.one {
+    top: 763px;
+    left: 70%;
+    z-index: 0;
+}
+
+.signup {
+    width: 69px;
+}
+
+.signup h5 {
+	margin-top: 25px;
+    margin-left: 19px;
+}
+
+.nope {
+	display: none;
+}
+
+.two {
+    top: 1591px;
+    left: 70%;
+    background-color: #fff;
+    height: 69px;
+    z-index: 0;
+}
+
+.three {
+    top: 2403px;
+    left: 70%;
+    z-index: 0;
+}
+
+nav {
+    position: absolute;
+    left: 50%;
+    top: 45%;
+    transform: translate(-50%, -50%);
+}
+
+
+div.langg {
+  display: none;
+}
+
+div.lang {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 105.29px;
+    margin-bottom: 24%;
+}
+
+#foureight {
+    margin-top: 30px;
+}
+
+
+}
+
+@media (max-width: 414px) {
+    .one {
+    top: 658px;}
+    div.critics {
+    top: 810px;
+    height: 720px;
+    }
+    .two {
+    top: 1367px;
+    }
+    div.producer {
+        top: 1555px;
+        height: 686px;
+        margin-bottom: 0;
+    }
+.three {
+    top: 2085px; }
+}
+
+@media (max-width: 411px) {
+    div.challenge {
+        top: 103px; }
+
+    .one {
+    top: 676px;
+    left: 70%;
+    }
+
+    div.critics {
+    top: 826px;
+    height: 725px;
+    }
+
+    .two {
+    top: 1390px;}
+
+    div.producer {
+    top: 1576px;
+    height: 579px;
+    }
+
+    .three {
+    top: 2103px;}
+
+}
+
+@media (max-width: 375px) {
+    div.critics {
+        top: 876px;
+    height: 725px;
+}
+div.producer {
+    top: 1612px;
+    height: 579px;
+    margin-bottom: 121px;
+}
+
+div.content {
+    margin-top: 28px;
+}
+
+.one {
+    top: 725px;}
+.two {
+    top: 1459px;
+}
+.three {
+    top: 2194px;
+}
+
+}
+
+@media (max-width: 360px) {
+    div.critics {
+        top: 874px; 
+        height: 770px; 
+    }
+    div.producer {
+        top: 1650px;
+        height: 601px;
+    }
+.two {
+    top: 1500px;
+}
+.three {
+    top: 2226px;
+}
+
+}
+
+
+@media (max-width: 320px) {
+    div.critics {
+    top: 936px;
+    height: 976px;
+    }
+.one {
+    top: 786px;
+}
+div.producer {
+    top: 1769px;
+    height: 631px;}
+
+.three {
+    top: 2411px;
+}
+
+.two {
+    top: 1616px;
+}
+
+}    
+

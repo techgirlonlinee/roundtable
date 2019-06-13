@@ -67,8 +67,8 @@ section.left {
 	width: 50%;
 	position: absolute;
 	left: 15%;
-	/*top: 9.5%;*/
-	top: 6.2%;
+    top: 48.5%;
+    transform: translateY(-50%);
 }	
 
 img#s {
@@ -90,7 +90,9 @@ section.right {
 	width: 50%;
 	position: absolute;
 	right: 15%;
-	top: 6.2%;
+/*	top: 6.2%;*/
+top: 50%;
+    transform: translateY(-50%);
 }
 
 

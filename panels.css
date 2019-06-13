@@ -49,21 +49,17 @@ div.border {
 
 body {
 	font-family: kanit;
-	fot-weight: 150;
 	font-size: 13px;
 	overflow-x: hidden;
 }
 
 h4 {
 	width: 240px;
-	/*width: 140px;*/
 	font-family: Oswald;
 	font-weight: 400;
-	/*font-size: 25px;*/
 	font-size: 43.5px;
 	position: absolute;
 	top: 9.4%;
-    /*left: 8%;*/
     left: 8%;
 	color: #100af2;
 }
@@ -89,8 +85,6 @@ span {
 
 div.link:hover a{
 	font-style: italic;
-	/*font-size: 14px;*/
-	/*transform: translateX(50px);*/
 }
 
 
@@ -102,8 +96,6 @@ div.challenge {
 	border-radius: 50%;
 	background-color: #100af2;
 	position: absolute;
-/*	top: 100px;
-	left: 600px;*/
 	top: 13%;
 	left: 45%;
 }
@@ -479,12 +471,6 @@ nav a.selected {
 	color: transparent;
   	-webkit-text-stroke: 1px #ffffff;
 }
-
-/*.menu-slider{
-	position: absolute;
-	right: 20px;
-	top: 20px;
-}*/
 
 .menu-slider{
   position: absolute;
