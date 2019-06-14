@@ -58,15 +58,14 @@ body {
 }
 
 h1 {
-	width: 100px;
-	font-family: Oswald;
-	font-weight: 400;
-	font-size: 33px;
-	position: absolute;
-	top: 98%;
-	left: -3%;
-	/*color: #100af2;*/
 	color: #100af2;
+	width: 100px;
+    font-family: kanit;
+    font-weight: 400;
+    font-size: 28px;
+    position: absolute;
+    top: 109%;
+    left: -3%;
 }
 
 .menu-toggle{
@@ -141,10 +140,6 @@ nav a.selected {
 
 
 
-
-
-
-
 /* MOBILE */
 
 @media (max-width: 425px) {
@@ -183,7 +178,7 @@ body {
 
 
 h1{
-    font-size: 22px;
+    font-size: 28px;
     color: #100af2;
 /*    width: 135px;
     height: 36px;
@@ -193,6 +188,9 @@ h1{
     font-family: kanit;
     font-weight: 400;
     margin-top: 10px;
+    top: 91%;
+    position: absolute;
+    left: -1%;
 }
 
 nav {

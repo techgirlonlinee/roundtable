@@ -127,7 +127,9 @@ a.purin {
     margin-top: 8px;
 }
 
-
+.links a:hover img{
+  transform: translateY(12px);
+}
 
 
 

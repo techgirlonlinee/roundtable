@@ -269,6 +269,21 @@ a.thaii:hover {
     border: 1px solid #100af2;
 }
 
+a.icon{
+  height: 60px;
+}
+
+.icon:hover img{
+  transform: translateY(-30px);
+}
+
+
+
+
+
+
+
+
 
 
 

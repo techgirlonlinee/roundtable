@@ -99,6 +99,9 @@ a {
   color:  #fff;
 }
 
+.links a:hover img{
+  transform: translateY(12px);
+}
 
 .footer {
 	text-align: center;
@@ -187,11 +190,6 @@ div.circle p {
   font-weight: 400;
   font-size: 30px;
 }
-/*
-.text p {
-  font-family: Kanit;
-  font-weight: 200;
-}*/
 
 .text span {
   font-family: Oswald;
