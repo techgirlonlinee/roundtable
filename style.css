@@ -89,9 +89,6 @@ div.content {
 }
 
 h1 {
-/*   display: flex;
-  justify-content: center;
-  padding-top: 20px; */
   position: absolute;
   top: 8%;
   left: 50%;
@@ -624,7 +621,6 @@ div.lang {
 }
 
 @media (max-width: 375px) {
-
 section.text {
     position: absolute;
     top: 567px;

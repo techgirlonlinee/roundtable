@@ -468,12 +468,21 @@ div.lang {
 
 .about {
     left: 22%;
-    top: 14.8%;
+    top: 15.8%;
 }
 
 .links-mobile {
   top: 70%;
 }
+
+p.info {
+  margin-top: 35px;
+}
+
+.links-mobile {
+    top: 72%;
+}
+
 }
 
 @media (max-width: 360px) {
