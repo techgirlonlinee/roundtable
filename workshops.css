@@ -486,15 +486,7 @@ h6 {
     display: none;
 }
 
-.pan-section {
-    display: none;
-}
-
-.pan-section2 {
-    display: none;
-}
-
-.pan-section3 {
+.pan-section, .pan-section2, .pan-section3 {
     display: none;
 }
 
@@ -581,7 +573,9 @@ img#spic {
 }
 
 
-
+.signmob {
+    display: none
+}
 
 
 
@@ -608,16 +602,16 @@ h6{
     display: block;
 }
 
-.pan-section {
-    display: block;
+.pan-section, .pan-section2, .pan-section3 {
+    display: flex;
 }
 
-.pan-section2 {
-    display: block;
+.pan-section3{
+    color: #100af2;
 }
 
-.pan-section3 {
-    display: block;
+.pan-style {
+    margin-top: 17px;
 }
 
 div.border {
@@ -649,31 +643,73 @@ p#p {
     width: 135px;
     height: 36px;
     position: absolute;
-    /*top: 15.4%;*/
     top: 65px;
-    /*top: 16%;*/
-    left: 0;
-    margin-left: 7%;
+    left: 6%;
+    /*margin-left: 7%;*/
     font-weight: 400;
 }
 
 div.challenge {
-    position: absolute;
-    width: 100%;
-    top: 86px;
+    position: unset;
+    width: 100vw;
+    height: 100%;
     left: 0;
     border-radius: 0;
     background-color: #fff;
     color: #100af2;
+    display: flex;
+    flex-direction: column;
+    margin-top: 64px;
+    margin-bottom: 30px;
 }
 
 div.content {
-    width: 100%;
+    width: 100vw;
     padding-left: 25px;
-    padding-right: 25px; 
+    padding-right: 25px;
     color: #100af2;
     padding-top: 0px;
     margin-top: 17px;
+    margin-top: 36px;
+}
+
+h6 {
+    margin-top: 24px;
+    margin-left: 6%;
+    margin-bottom: 8px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+div.critics {
+    position: unset;
+    width: 100vw;
+    height: 100%;
+    border-radius: 0;
+    background-color: #100af2;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+}
+
+div.content2 {
+    color: #fff;
+    width: 100%;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-top: 36px;
+    padding-top: 0;
+}
+
+div.producer {
+    position: unset;
+    height: 100%;
+    width: 100%;
+    border-radius: 0;
+    background-color: #ffff;
+    height: 100%;
+    margin-bottom: 30px;
 }
 
 h1,h2 {
@@ -697,13 +733,9 @@ div.link {
     font-size: 15px;
 }
 
-.line {
+.line, .line2 {
     display: none;
 }    
-
-.line2 {
-	display: none;
-}
 
 .date1, .date2 {
     display: block;
@@ -711,46 +743,7 @@ div.link {
     flex-direction: row;
     justify-content: space-between;
     font-size: 14px;
-    font-weight: 400; }
-
-div.location {
-    margin-top: 3px;
-    font-size: 13px;
-    font-weight: 400;
-}
-
-
-div.critics {
-	position: absolute;
-    left: 0;
-    width: 100%;
-    border-radius: 0;
-    background-color: #100af2;
-    color: #fff;
-    height: 832px;
-    top: 909px;
-}
-
-div.content2 {
-	color: #fff;
-    width: 100%;
-    padding-left: 25px;
-    padding-right: 25px; 
-    margin-top: 36px;
-
-    padding-top: 0;
-}
-
-div.producer {
-    height: 500px;
-    position: absolute;
-    top: 1281px;
-    left: 0;
-    width: 100%;
-    border-radius: 0;
-    background-color: #ffff;
-     top: 1768px;
-     height: 686px;
+    font-weight: 400; 
 }
 
 .menu-toggle {
@@ -782,32 +775,10 @@ div.producer {
     margin-top: 6%;
 }
 
-h6 {
-	margin-top: 24px;
-    margin-left: 7.3%;
-    margin-bottom: 8px;
-    font-size: 20px;
-    font-weight: 400;
-}
-
-.pan-style {
-	margin-top: 17px;
-}
-
 #panel3 {
 	color: #100af2;
 }
 
-.pan-section3{
-	color: #100af2;
-}
-
-#one, #four, #seven {
-	position: absolute;
-    left: 0;
-    margin-left: 22px;
-    margin-top: 10px;
-}
 
 img#jpic, img#cpic, img#ccpic {
     vertical-align: bottom;
@@ -817,6 +788,14 @@ img#jpic, img#cpic, img#ccpic {
     object-fit: cover;
     border-radius: 50%;
     margin-left: 0;
+}
+
+#one, #four, #seven {
+    position: unset;
+    left: 0;
+    margin-left: 22px;
+    margin-top: 10px;
+    margin-right: 0;
 }
 
 #one h3, #four h3, #seven h3 {
@@ -838,12 +817,6 @@ img#jpic, img#cpic, img#ccpic {
     margin-left: 11px;
 }
 
-#two, #five, #eight {
-	position: absolute;
-    left: 120px;
-    margin-top: 3px;
-}
-
 img#npic, img#aapic, img#wpic {
     vertical-align: bottom;
     margin-top: 6px;
@@ -853,6 +826,12 @@ img#npic, img#aapic, img#wpic {
     object-fit: cover;
     border-radius: 50%;
     margin-left: 0px;
+}
+
+#two, #five, #eight {
+    position: unset;
+    margin-left: 20px;
+    margin-top: 5px;
 }
 
 #two h3, #five h3, #eight h3{
@@ -865,7 +844,7 @@ img#npic, img#aapic, img#wpic {
 }
 
 #three, #six, #nine {
-	position: absolute;
+	position: unset;
     left: 199px;
     margin-top: 3px;
 }
@@ -937,29 +916,17 @@ p.main {
 
 .signup {
     width: 69px;
+    display: none;
 }
 
 .signup h5 {
 	margin-top: 25px;
     margin-left: 19px;
+    display: none;
 }
 
 .nope {
 	display: none;
-}
-
-.two {
-    top: 1591px;
-    left: 70%;
-    background-color: #fff;
-    height: 69px;
-    z-index: 0;
-}
-
-.three {
-    top: 2403px;
-    left: 70%;
-    z-index: 0;
 }
 
 div.location {
@@ -967,6 +934,7 @@ div.location {
 	margin-top: 10px;
     margin-top: 8px;
     font-style: italic;
+    font-weight: 400;
 }
 
 nav {
@@ -991,13 +959,76 @@ div.lang {
 }
 
 #foureight {
-    margin-top: 30px;
+    margin-top: 0px;
 }
 
 
+
+
+.signmob {
+    width: 75px;
+    height: 75px;
+    position: relative;
+    border-radius: 50%;
+    background-color: transparent;
+    transition: all 2s ease;
+    text-decoration: none;
+    font-family: Oswald;
+    font-weight: 400;
+    margin-top: 12px;
+    margin-left: 20px;
+    background-color: #fff;
 }
 
-@media (max-width: 414px) {
+.signmob h6 {
+    margin-top: 25px;
+    margin-left: 16px;
+}
+
+.signmob img{
+    animation-name: rotate; 
+    animation-duration: 35s; 
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    position: absolute;
+    top: 0;
+}
+
+@keyframes rotate {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+/*@media (max-width: 414px) {
     .one {
     top: 658px;}
     div.critics {
@@ -1107,5 +1138,5 @@ div.producer {
     top: 1616px;
 }
 
-}    
+}    */
 

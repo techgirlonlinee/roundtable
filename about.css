@@ -124,7 +124,8 @@ a.purin {
     left: 50%;
     top: 90%;
     transform: translateX(-50%);
-    margin-top: 8px;
+/*    margin-top: 8px;*/
+    margin-top: 22px;
 }
 
 .links a:hover img{
@@ -326,7 +327,7 @@ p#p {
     font-weight: 400;
 }
 
-  #logo {
+#logo {
   display: block;
   width: 130px;
   position: absolute;
@@ -348,7 +349,7 @@ p#p {
 }
 
 .menu {
-  width: 100%;
+  width: 100vw;
 }
 
 .menu-slider {
@@ -359,7 +360,8 @@ p#p {
 }
 
 section {
-    position: absolute;
+    position: unset;
+    display: flex;
     width: 100%;
     background-color: #fff;
     right: 0;
@@ -367,14 +369,18 @@ section {
     font-family: Kanit;
     font-weight: 200;
     color: #100af2;
+    flex-direction: column;
 }
 
 section div {
-    position: absolute;
-    top: 48%;
-    left: 6%;
-    margin-right: 6%;
-    transform: translateY(-50%);
+    position: unset;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    margin-right: 0;
+    margin-top: 27px;
+    margin-left: 6%;
+    transform: translateY(0);
 }
 
 div.links {
@@ -388,18 +394,19 @@ div.links {
 
 .links-mobile {
     display: flex;
+    flex-direction: row;
     width: 316px;
-    position: absolute;
-    left: 6%;
+    position: unset;
+    left: 0;
     top: 68%;
     transform: translateX(0);
-    margin-top: 8px;
-  }
+    margin-top: 0;
+}
 
 p.info {
-  width: 277px;
-  font-size: 18px;
-}
+    width: 330px;
+    font-size: 19px;
+}    
 
 div.lang {
   margin-right: 6%;
@@ -407,16 +414,18 @@ div.lang {
 }
 
 .about {
-  text-decoration: none;
+    text-decoration: none;
     font-family: Oswald;
     font-size: 21px;
-    position: absolute;
-    top: 12.8%;
-    left: 20%;
+    position: unset;
+    display: flex;
+    flex-direction: column;
     color: #fff;
-    width: 120px;
+    margin-left: 6%;
+    transform: translateX(0);
+    margin-top: 102px;
     height: 120px;
-    height: 1;
+    width: 120px;
     border-radius: 50%;
     z-index: 1;
     background-color: #100af2;
@@ -457,7 +466,7 @@ div.lang {
 }
 
 }
-
+/*
 @media (max-width: 414px) {
   .about {
     left: 21%;
@@ -510,4 +519,4 @@ p.info {
     top: 79%;
   }
 
-}
+}*/

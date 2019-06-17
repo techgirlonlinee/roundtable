@@ -67,15 +67,37 @@ section.left {
 	width: 50%;
 	position: absolute;
 	left: 15%;
-    top: 48.5%;
-    transform: translateY(-50%);
+  top: 49.5%;
+  transform: translateY(-50%);
 }	
+
+#title {
+    font-family: Oswald;
+    font-weight: 400;
+    font-size: 24px;
+    text-decoration: none;
+    color: #100af2;
+    text-decoration: underline;
+    margin-top: 20px;
+}
+
+div.speakers {
+  margin-top: 15px;
+  display: block;
+/*  display:flex;
+  justify-content: space-between;*/
+}
+
+div.speakers a{
+  font-size: 16px;
+  text-transform: uppercase;
+}
 
 img#s {
 	width: 100%;
 	height: 240px;
 	object-fit: cover;
-	margin: 30.5px 0 0 0;
+	margin: 15px 0 0 0;
 }
 
 section.right {
@@ -112,23 +134,35 @@ p {
 }
 
 .info {
-	margin-top: 25px;
+	margin-top: 15px;
 	line-height: 1.3;
 	font-size: 13px;
 }
 
 
-a.name {
+a.nomae {
 	font-family: Oswald;
 	font-weight: 400;
 	font-size: 24px;
 	text-decoration: none;
 	color: #100af2;
-	text-decoration: underline;
+}
+
+a.nomae:hover {
+	font-style: italic;
+}
+
+a.name {
+  font-family: Oswald;
+  font-weight: 400;
+  font-size: 24px;
+  text-decoration: none;
+  color: #100af2;
+  text-decoration: underline;
 }
 
 a.name:hover {
-	font-style: italic;
+  font-style: italic;
 }
 
 div.circle {
@@ -182,8 +216,10 @@ h4 {
 
 .filler {
 	width: 400px;
-	margin-top: 120px;
-	margin-left: 100px;
+/*	margin-top: 120px;
+	margin-left: 100px;*/
+  margin-top: 40px;
+  margin-left: 100px;
 	line-height: 1.3;
 }
 
@@ -201,14 +237,34 @@ h4 {
 
 h2 {
 	font-size: 30px;
-	margin-bottom: 30px;
+/*	margin-bottom: 30px;*/
 	font-family: Oswald;
 	font-weight: 400;
+  margin-bottom: 0;
 }
 
 
+img#ccpic {
+    vertical-align: bottom;
+    max-width: 100%;
+    width: 166px;
+    height: 204px;
+    margin-top: 6px;
+    margin-left: 233px;
+    object-fit: cover;
+}
 
-
+img#wpic {
+    vertical-align: bottom;
+    max-width: 100%;
+    width: 166px;
+    height: 204px;
+    margin-top: 10px;
+    margin-left: 220px;
+    /*width: 180px;*/
+    height: 200px;
+    object-fit: cover;
+}
 
 
 
@@ -280,8 +336,6 @@ nav a.selected {
   width: 30px;
   height: 30px;
 }
-
-
 
 
 /* menuuuuuuu */
@@ -446,11 +500,13 @@ p#p {
 @media (max-width: 425px) {
 
 body {
-	border: 0px solid #100af2;
-	overflow-y: auto;
-  font-size: 15px;
+    border: 0px solid #100af2;
+    overflow-y: auto;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
 }
-
 
 p#p {
   display: block;
@@ -465,21 +521,26 @@ div.circle {
 }
 
 section.left {
+    position: unset;
     display: flex;
     flex-direction: column;
     width: 100vw;
-    height: 740px;
+    height: 100%;
     top: 0;
-    position: unset;
+    margin-bottom: 36px;
 }
 
 .left-content {
     width: auto;
-    position: absolute;
+    position: unset;
+    display: flex;
+    flex-direction: column;
+    transform: translateY(0);
     left: 0;
     margin-left: 6%;
     margin-right: 6%;
-    margin-top: 39px;
+    margin-top: 115px;
+    height: 100%;
 }
 
 p.info {
@@ -490,23 +551,26 @@ p.info {
 
 section.right {
     width: 100%;
-    height: auto; 
-    position: absolute;
+    height: auto;
+    position: unset;
+    display: flex;
+    flex-direction: column;
     left: 0;
     color: #fff;
     background-color: #100af2;
-
-    top: 718px;
-    height: 657px;
+    height: 100%;
+    padding-bottom: 17px;
 }
 
 .right-content {
-    width: auto; 
-    position: absolute;
-    left: 0;
+    width: auto;
+    position: unset;
+    display: flex;
+    flex-direction: column;
     margin-left: 6%;
-    top: 6.2%;
-    right: 6%;
+    margin-right: 6%;
+    height: 100%;
+    margin-top: 36px;
     transform: translateY(0);
 }
 
@@ -584,6 +648,10 @@ p {
     font-weight: 200;
 }
 
+img#s {
+    /*margin-top: 20px;*/
+    /*margin-bottom: 20px;*/
+}
 
 img#p {
     margin: 28px 0 25px 0;
@@ -614,7 +682,7 @@ div.lang {
 
 
 
-
+/*
 @media (max-width: 411px) {
 .left-content {
   margin-top: 47px;
@@ -623,7 +691,7 @@ div.lang {
 
 
 }
-/* iphone 6/7/8 plus */
+
 @media (max-width: 414px) {
 section.right { 
   top: 760px;
@@ -637,7 +705,7 @@ section.right {
 
 
 
-/* iphone X */
+
 @media (max-width: 375px) {
 
 .left-content {
@@ -671,7 +739,7 @@ section.right {
     height: 795px;
 }
 }
-
+*/
 
 
 

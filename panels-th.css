@@ -114,7 +114,7 @@ h1, h2, h3 {
 	font-family: Oswald;
 	font-weight: 400;
 	font-size: 26px;
-	margin-bottom: 25px;
+	margin-bottom: 10px;
 }
 
 div.link {
@@ -218,8 +218,6 @@ div.critics {
 	width: 570px;
 	height: 570px;
 	position: absolute;
-/*	top: 500px;
-	left: 80px;*/
 	top: 80%;
 	left: 6%;
 	border-radius: 50%;
@@ -346,8 +344,6 @@ img#mmpic {
 	transform: translate(-50%, -50%);
 	color: #ffffff;
 	display: none;
-/*	opacity: 0;
-	transition: opacity 0.5s ease;*/
 }
 
 .filler {
@@ -551,21 +547,21 @@ h6{
     display: block;
 }
 
-.pan-section {
-    display: block;
+.pan-section, .pan-section2, .pan-section3 {
+    display: flex;
 }
 
-.pan-section2 {
-    display: block;
+.pan-style {
+    margin-top: 17px;
 }
 
-.pan-section3 {
-    display: block;
+.pan-section3{
+    color: #100af2;
 }
-
 
 div.border {
-    display: none; }
+    display: none; 
+}
 
 h4 {
     width: 100%;
@@ -594,34 +590,67 @@ p#p {
     height: 36px;
     position: absolute;
     top: 65px;
-    left: 24px;
+    left: 6%;
     font-weight: 400;
 }
 
 div.challenge {
     position: unset;
-    display: flex;
-    flex-direction: column;
-    width: 100%;
+    width: 100vw;
+    height: 100%;
+    left: 0;
     border-radius: 0;
     background-color: #fff;
     color: #100af2;
-    height: 655px;
-    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 64px;
+    margin-bottom: 36px;
 }
+
 
 div.content {
-    width: 100%;
-    padding-left: 25px;
+    width: 100vw;
+    padding-left: 6%;
     padding-right: 25px;
     color: #100af2;
-    padding-top: 20px;
+    padding-top: 0px;
     margin-top: 17px;
+    margin-top: 36px;
+ }     
+
+ div.critics {
+    position: unset;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+    border-radius: 0;
+    width: 100%;
+    background-color: #100af2;
+    color: #fff;
+    padding-bottom: 36px;
 }
 
-.pan-section {
-    display: block;
-}    
+
+div.content2 {
+    color: #fff;
+    width: 100%;
+    padding-left: 6%;
+    padding-right: 25px;
+    margin-top: 36px;
+    padding-top: 0;
+}
+
+div.producer {
+    position: unset;
+    height: 100%;
+    width: 100%;
+    border-radius: 0;
+    background-color: #ffff;
+    height: 100%;
+    margin-bottom: 36px;
+}
 
 h1,h2 {
 	font-family: Oswald;
@@ -644,13 +673,9 @@ div.link {
     font-size: 18px;
 }
 
-.line {
+.line, .line2 {
     display: none;
 }    
-
-.line2 {
-	display: none;
-}
 
 .date1, .date2 {
     display: block;
@@ -667,39 +692,6 @@ div.location {
     font-weight: 400;
     font-style: italic;
 }
-
-div.critics {
-    position: unset;
-    height: 721px;
-    display: flex;
-    flex-direction: column;
-    margin-top: 0;
-    border-radius: 0;
-    width: 100%;
-    background-color: #100af2;
-    color: #fff;
-}
-
-
-div.content2 {
-    color: #fff;
-    width: 100%;
-    padding-left: 25px;
-    padding-right: 25px;
-    margin-top: 36px;
-    padding-top: 0;
-}
-
-div.producer {
-	margin-bottom: 0;
-    position: unset;
-    height: 649px;
-    left: 0;
-    width: 100%;
-    border-radius: 0;
-    background-color: #ffff;
-}
-
 .menu-toggle {
     position: fixed;
     top: 0;
@@ -709,11 +701,7 @@ div.producer {
     z-index: 1;
 }    
 
-#eliminate {
-	display: none;
-}
-
-.langg {
+#eliminate, .langg {
 	display: none;
 }
 
@@ -731,14 +719,10 @@ div.producer {
 
 h6 {
 	margin-top: 24px;
-    margin-left: 7.3%;
+    margin-left: 6%;
     margin-bottom: 8px;
     font-size: 20px;
     font-weight: 400;
-}
-
-.pan-style {
-	margin-top: 17px;
 }
 
 #panel3 {
@@ -750,9 +734,18 @@ h6 {
 }
 
 #one, #four, #seven {
-	position: absolute;
+    position: unset;
     left: 0;
     margin-left: 22px;
+    margin-top: 0px;
+    margin-right: 0;
+}
+
+#one h3, #four h3, #seven h3 {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    font-size: 10px;
 }
 
 img#jpic, img#cpic, img#ccpic {
@@ -765,21 +758,35 @@ img#jpic, img#cpic, img#ccpic {
     margin-left: 0;
 }
 
-#one h3, #four h3, #seven h3 {
-	margin-top: 10px;
-    display: flex;
-    justify-content: center;
-    font-size: 10px;
-}
-
 #four h3 {
 	width: 61px;
     margin-left: 11px;
 }
 
-#two, #five, #eight {
+/*#two, #five, #eight {
 	position: absolute;
     left: 120px;
+    margin-top: 3px;
+}*/
+
+#two, #five, #eight {
+    position: unset;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+#two h3, #five h3, #eight h3{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    font-size: 10px;
+    width: 32px;
+    margin-left: 25px;
+}
+
+#three, #six, #nine {
+    position: unset;
+    left: 199px;
     margin-top: 3px;
 }
 
@@ -794,18 +801,18 @@ img#npic, img#aapic, img#wpic {
     margin-left: 0px;
 }
 
-#two h3, #five h3, #eight h3{
+/*#two h3, #five h3, #eight h3{
 	margin-top: 10px;
     display: flex;
     justify-content: center;
     font-size: 10px;
-}
+}*/
 
-#three, #six, #nine {
+/*#three, #six, #nine {
 	position: absolute;
     left: 199px;
     margin-top: 3px;
-}
+}*/
 
 #three {
 	width: 85px;
@@ -873,130 +880,5 @@ div.lang {
     margin-bottom: 24%;
 }
 
-
-}
-
-
-/*@media (max-width: 425px) {
-div.critics {
-        top: 634px;
-        height: 611px;
-    }
-div.producer {
-    top: 1261px;
-    margin-bottom: 73px;
-    }
-
-}
-
-
-@media (max-width: 414px) {
-div.critics {
-    top: 615px;
-    height: 587px;
-    }
-div.producer {
-    top: 1209px;
-    margin-bottom: 66px;
-    }
-}
-
-
-@media (max-width: 375px) {
-div.critics {
-    top: 625px;
-    height: 622px;
-}
-div.producer {
-    top: 1221px;
-}
-
-}    
-
-
-@media (max-width: 360px){
-    div.critics {
-    top: 634px;
-    height: 611px;
-}
-div.producer {
-    top: 1257px;
-}
-
-}
-
-@media (max-width: 320px) {
-div.critics {
-    top: 664px; }
-div.producer {
-    top: 1295px;
-    margin-bottom: 92px;
-}
-
-}
-*/
-
-
-@media (max-width: 414px) {
-div.challenge {
-    height: 682px;
-}    
-div.critics {
-    height: 722px;
-}
-div.producer {
-    margin-bottom: 0;
-}
-}
-
-@media (max-width: 411px) {
-	div.challenge {
-	height: 682px;
-	}
-	div.critics {
-    height: 709px;   
-	}
-	div.producer {
-    margin-bottom: 0;
-	}
-	    
-}
-
-@media (max-width: 375px) {
-div.challenge {
-    height: 711px;
-}
-div.critics {
-    height: 749px;
-}
-div.producer {
-    height: 696px;
-}
-
-}    
-
-
-@media (max-width: 360px){
-    div.critics {
-    top: 634px;
-    height: 611px;
-}
-div.producer {
-    top: 1257px;
-}
-
-}
-
-@media (max-width: 320px) {
-div.challenge {
-    height: 775px;
-}
-div.critics {
-    height: 831px;
-}    
-div.producer {
-    height: 643px;
-    margin-bottom: 0;
-}
 
 }
