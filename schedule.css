@@ -1,4 +1,4 @@
-@font-face{
+/*@font-face{
 	font-family: Kanit;
 	font-weight: 200;
 	src: url(font/Kanit-ExtraLight.ttf);
@@ -37,7 +37,7 @@
 	font-family: Oswald;
 	font-weight: 200;
 	src: url(font/Oswald-Light.ttf);
-}
+}*/
 
 body {
 	border: 14px solid #100af2;
@@ -47,14 +47,20 @@ body {
 	color: #000000;
 	overflow: hidden;
 }
-
+/*
 .circle {
 	position: absolute;
 	top: 8%;
 	left: 8%;
-}
+}*/
 .circle img {
 	width: 130px;
+}
+.circle {
+    position: absolute;
+    top: 8%;
+    left: 8%;
+    display: none;
 }
 
 h1 {
@@ -136,7 +142,13 @@ nav a.selected {
   height: 30px;
 }
 
-
+section {
+	 position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 58%;
+    transform: translate(-50%,-50%);
+}
 
 
 
@@ -180,11 +192,6 @@ body {
 h1{
     font-size: 28px;
     color: #100af2;
-/*    width: 135px;
-    height: 36px;
-    position: absolute;
-    top: 65px;
-    left: 24px;*/
     font-family: kanit;
     font-weight: 400;
     margin-top: 10px;
@@ -199,6 +206,21 @@ nav {
     top: 45%;
     transform: translate(-50%, -50%);
 }
+
+section {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 114%;
+    transform: translate(-50%,-50%);
+}
+
+img#pic {    
+	vertical-align: bottom;
+    max-width: 100%;
+    transform: rotate(90deg);
+}
+
 
 
 }
