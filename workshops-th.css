@@ -696,7 +696,7 @@ div.challenge {
     margin-bottom: 30px;
 }
 
-h1,h2 {
+/*h1,h2 {
 	font-family: Oswald;
     font-weight: 400;
     font-size: 25px;
@@ -704,6 +704,16 @@ h1,h2 {
     width: 198px;
     line-height: 1.2;
     text-decoration: underline;    
+}*/
+
+h1, h2 {
+    font-family: Oswald;
+    font-weight: 400;
+    font-size: 25px;
+    margin-bottom: 0;
+    width: 300px;
+    line-height: 1.2;
+    text-decoration: underline;
 }
 
 div.link {
