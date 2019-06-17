@@ -67,7 +67,7 @@ section.left {
 	width: 50%;
 	position: absolute;
 	left: 15%;
-  top: 49.5%;
+  top: 45.5%;
   transform: translateY(-50%);
 }	
 
@@ -78,7 +78,8 @@ section.left {
     text-decoration: none;
     color: #100af2;
     text-decoration: underline;
-    margin-top: 20px;
+   /* margin-top: 20px;*/
+       margin-top:0;
 }
 
 div.speakers {
@@ -649,8 +650,8 @@ p {
 }
 
 img#s {
-    /*margin-top: 20px;*/
-    /*margin-bottom: 20px;*/
+    margin-top: -15px;
+    margin-bottom: 10px;
 }
 
 img#p {
