@@ -657,7 +657,7 @@ h1,h2 {
     font-weight: 400;
     font-size: 25px;
     margin-bottom: 10px;
-    width: 198px;
+    width: 255px;
     line-height: 1.2;
     text-decoration: underline;    
 }
@@ -679,7 +679,7 @@ div.link {
 
 .date1, .date2 {
     display: block;
-    line-height: 1.6;
+    line-height: 1.3;
     flex-direction: row;
     justify-content: space-between;
     font-size: 16px;
@@ -687,8 +687,8 @@ div.link {
 }
 
 div.location {
-    margin-top: 4px;
-    font-size: 15px;
+    margin-top: 2px;
+    font-size: 14px;
     font-weight: 400;
     font-style: italic;
 }
