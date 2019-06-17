@@ -503,7 +503,7 @@ section.text {
     top: 512px;
     left: 0;
     width: 100%;
-    height: 735px;
+    height: 100%;
     color: #100af2;
     background-color: #fff;
     overflow: hidden;

@@ -625,6 +625,12 @@ section.right {
   width: 100%;
 }
 
+.menu-slider {
+    position: absolute;
+    right: 6%;
+    top: 6%;
+    cursor: pointer;
+}
 
 #phutti {
   color: #fff;
