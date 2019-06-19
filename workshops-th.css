@@ -77,6 +77,9 @@ img {
     width: 123px;
 }
 
+span {
+    font-style: italic;
+}
 
 p#p {
 	font-size: 22px;

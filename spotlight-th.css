@@ -555,6 +555,11 @@ body {
     height: 100%;
 }
 
+div.speakers {
+    margin-top: 15px;
+    display: none;
+}
+
 p#p {
   display: block;
 }
