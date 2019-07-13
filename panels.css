@@ -186,7 +186,6 @@ div.critics {
 	height: 540px;
 	position: absolute;
 	top: 500px;
-/*	left: 100px;*/
 	top: 75%;
 	left: 8%;
 	border-radius: 50%;
@@ -251,8 +250,10 @@ div.producer {
 	transform: translate(-50%, -50%);
 	color: #ffffff;
 	display: none;
-/*	opacity: 0;
-	transition: opacity 0.5s ease;*/
+}
+
+.filler p {
+    font-weight: 150;
 }
 
 .filler {
@@ -650,24 +651,6 @@ div.location {
     font-weight: 400;
     font-style: italic;
 }
-
-/*div.content2 {
-    color: #fff;
-    width: 100%;
-    padding-left: 25px;
-    margin-top: 36px;
-    padding-top: 0;
-}*/
-
-/*div.producer {
-    margin-bottom: 0;
-    position: unset;
-    height: 584px;
-    left: 0;
-    width: 100%;
-    border-radius: 0;
-    background-color: #ffff;
-}*/
 
 h1,h2 {
 	font-family: Oswald;
