@@ -278,10 +278,12 @@ a.icon{
 }
 
 
-
-
-
-
+.nav a:hover img{
+  transform: translateY(12px);
+  padding-top: 12px;
+  height: 37px;
+  margin-top: -12px;
+}
 
 
 
